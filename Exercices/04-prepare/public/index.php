@@ -18,6 +18,8 @@ try {
     die("Numero d'erreur {$e->getCode()} <br> Message d'erreur {$e->getMessage()} ");
 };
 
+include ROOT_PROJECT."/view/homepage.view.php";
+
 // si on a envoyé le formulaire 
 if (isset($_POST['email'], $_POST['title'], $_POST['text'])) {
     // en pricipe, des que on a des entées utilisateur 
@@ -55,7 +57,7 @@ $nbArticle = $request->rowCount();
 // transformation du ou des résultat en tableau indexé contenant des tableau associatifs
 $articles = $request->fetchAll(PDO::FETCH_ASSOC);
 
-// bonne pratique
+// bonne pratique 
 $request->closeCursor();
 // déconnection de la db
 $db = null;
