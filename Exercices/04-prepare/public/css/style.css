@@ -82,6 +82,8 @@ textarea {
     width: 100%;
 }
 
+
+
 .btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
@@ -89,6 +91,31 @@ textarea {
 
 .btn:active {
     transform: translateY(0);
+}
+
+.btn-valid{
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: green;
+    color: white;
+    width: 100%; 
+}
+.btn-unvalid{
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgb(193, 4, 4);
+    color: white;
+    width: 100%; 
 }
 
 .message {

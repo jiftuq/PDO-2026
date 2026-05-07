@@ -18,6 +18,7 @@ try {
     die("Numero d'erreur {$e->getCode()} <br> Message d'erreur {$e->getMessage()} ");
 };
 
+
 // Appel de notre router
 require_once ROOT_PROJECT."/controller/routerController.php";
 

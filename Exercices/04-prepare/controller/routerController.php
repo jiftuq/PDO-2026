@@ -4,11 +4,13 @@
 # Appel de dépendances
 require ROOT_PROJECT."/model/LivreModel.php";
 
-// si l'utilisateur a envoyé le formulaire
+// si l'utilisateur a envoyé le formulaire // noms valides
 if(isset($_POST['email'],$_POST['title'],$_POST['text'])){
-    echo insertLivre();
+    // on reçoit true en cas de réussite, false en cas d'échec
+    $insert = insertLivre($db, $_POST);
 }
 
+// on prend les messages
 $livres = readLivres();
 
 // Appel de la vue
