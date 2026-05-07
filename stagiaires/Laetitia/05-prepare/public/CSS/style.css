@@ -1,0 +1,146 @@
+/* Variables pour les couleurs */
+:root {
+    --primary-color: #4f46e5;
+    --primary-hover: #4338ca;
+    --bg-color: #f9fafb;
+    --card-bg: #ffffff;
+    --text-main: #1f2937;
+    --text-muted: #6b7280;
+    --border-color: #e5e7eb;
+}
+ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.5;
+    padding: 20px;
+}
+ 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+ 
+header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+ 
+header p {
+    color: var(--text-muted);
+}
+ 
+/* Style du formulaire */
+.form-section {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+ 
+.form-group {
+    margin-bottom: 1.5rem;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+ 
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+ 
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+ 
+.submit-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+ 
+.submit-btn:hover {
+    background-color: var(--primary-hover);
+}
+ 
+/* Style des messages */
+.messages-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+ 
+.message-card {
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+    animation: fadeIn 0.4s ease-out;
+}
+ 
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+ 
+.message-author {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+ 
+.message-date {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+ 
+.message-content {
+    white-space: pre-wrap; /* Conserve les sauts de ligne */
+}
+ 
+/* Animation d'apparition */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+ 
+/* Responsivité */
+@media (min-width: 600px) {
+    .submit-btn {
+        width: auto;
+    }
+}

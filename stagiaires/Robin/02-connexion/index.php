@@ -40,13 +40,19 @@ $sql = "
         c.`nom`, c.`population`, c.`continent`, c.`capitale`
     FROM `countries` c 
         ORDER BY c.`population` DESC;
- "
+ ";
 
 // Véritable requête
 $request = $db->query($sql);
 
+// On compte le nombre de ligne de résultats SQL
+$count = $request->rowCount();
+
 // On récupère les données dans un format lisible par PHP
 $resultats = $request->fetchAll(PDO::FETCH_ASSOC);
+
+// Compte le nombre de ligne du tableau de résultat
+// $count = count($resultats);
 
 // Bonne pratique
 // Pas utile pour Maria ou MySQL
@@ -79,7 +85,7 @@ fclose($file);
     <title>Les pays du monde</title>
 </head>
 <body>
-    <h1>Les pays du monde</h1>
+    <h1>Les pays du monde (<?= $count ?>)</h1>
     <table>
         <thead>
             <tr>

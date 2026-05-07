@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livre d'or</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 
 <body>
-
+<?php
+// var_dump($_POST);
+?>
     <div class="container">
         <h1>📖 Livre d'or</h1>
 
@@ -35,7 +37,7 @@
             </form>
         </div>
 
-            <div class="message"></div>
+            <div class="message"><?= $livres ?></div>
             <div class="comments">Nombre de commentaires :
     </div>
     <div class="comments-list">

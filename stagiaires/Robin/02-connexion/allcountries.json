@@ -1,2798 +1,1400 @@
 [
     {
-        "id": 39,
         "nom": "Chine",
-        "iso": "CN",
         "population": 1439323776,
-        "superficie": 9596961,
         "continent": "Asie",
-        "capitale": "P\u00e9kin",
-        "popu_cap": 21516000,
-        "altitude": 43,
-        "monnaie": ""
+        "capitale": "P\u00e9kin"
     },
     {
-        "id": 97,
         "nom": "Inde",
-        "iso": "IN",
         "population": 1366417754,
-        "superficie": 3287263,
         "continent": "Asie",
-        "capitale": "New Delhi",
-        "popu_cap": 21753486,
-        "altitude": 216,
-        "monnaie": ""
+        "capitale": "New Delhi"
     },
     {
-        "id": 62,
         "nom": "\u00c9tats-Unis",
-        "iso": "US",
         "population": 332915073,
-        "superficie": 9147593,
         "continent": "Am\u00e9rique",
-        "capitale": "Washington D.C.",
-        "popu_cap": 702455,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Washington D.C."
     },
     {
-        "id": 98,
         "nom": "Indon\u00e9sie",
-        "iso": "\"I",
         "population": 273753191,
-        "superficie": 1904569,
         "continent": "Asie",
-        "capitale": "Jakarta",
-        "popu_cap": 10562088,
-        "altitude": 8,
-        "monnaie": ""
+        "capitale": "Jakarta"
     },
     {
-        "id": 157,
         "nom": "Pakistan",
-        "iso": "PK",
         "population": 225199937,
-        "superficie": 803940,
         "continent": "Asie",
-        "capitale": "Islamabad",
-        "popu_cap": 1014825,
-        "altitude": 507,
-        "monnaie": ""
+        "capitale": "Islamabad"
     },
     {
-        "id": 29,
         "nom": "Br\u00e9sil",
-        "iso": "BR",
         "population": 213445417,
-        "superficie": 8515767,
         "continent": "Am\u00e9rique",
-        "capitale": "Brasilia",
-        "popu_cap": 2570160,
-        "altitude": 1172,
-        "monnaie": ""
+        "capitale": "Brasilia"
     },
     {
-        "id": 148,
         "nom": "Nig\u00e9ria",
-        "iso": "NG",
         "population": 206139589,
-        "superficie": 923768,
         "continent": "Afrique",
-        "capitale": "Abuja",
-        "popu_cap": 1405201,
-        "altitude": 477,
-        "monnaie": ""
+        "capitale": "Abuja"
     },
     {
-        "id": 17,
         "nom": "Bangladesh",
-        "iso": "BD",
         "population": 164689383,
-        "superficie": 147570,
         "continent": "Asie",
-        "capitale": "Dacca",
-        "popu_cap": 14543124,
-        "altitude": 4,
-        "monnaie": ""
+        "capitale": "Dacca"
     },
     {
-        "id": 178,
         "nom": "Russie",
-        "iso": "RU",
         "population": 144526636,
-        "superficie": 17098242,
         "continent": "Europe\/Asie",
-        "capitale": "Moscou",
-        "popu_cap": 12506468,
-        "altitude": 156,
-        "monnaie": ""
+        "capitale": "Moscou"
     },
     {
-        "id": 135,
         "nom": "Mexique",
-        "iso": "MX",
         "population": 130262216,
-        "superficie": 1964375,
         "continent": "Am\u00e9rique",
-        "capitale": "Mexico",
-        "popu_cap": 8918653,
-        "altitude": 2240,
-        "monnaie": ""
+        "capitale": "Mexico"
     },
     {
-        "id": 106,
         "nom": "Japon",
-        "iso": "JP",
         "population": 126050804,
-        "superficie": 377915,
         "continent": "Asie",
-        "capitale": "Tokyo",
-        "popu_cap": 13515271,
-        "altitude": 40,
-        "monnaie": ""
+        "capitale": "Tokyo"
     },
     {
-        "id": 63,
         "nom": "\u00c9thiopie",
-        "iso": "ET",
         "population": 114963588,
-        "superficie": 1104300,
         "continent": "Afrique",
-        "capitale": "Addis-Abeba",
-        "popu_cap": 3384569,
-        "altitude": 2355,
-        "monnaie": ""
+        "capitale": "Addis-Abeba"
     },
     {
-        "id": 165,
         "nom": "Philippines",
-        "iso": "PH",
         "population": 111046913,
-        "superficie": 300,
         "continent": "Asie",
-        "capitale": "Manille",
-        "popu_cap": 12877253,
-        "altitude": 16,
-        "monnaie": ""
+        "capitale": "Manille"
     },
     {
-        "id": 55,
         "nom": "\u00c9gypte",
-        "iso": "EG",
         "population": 102334404,
-        "superficie": 1001450,
         "continent": "Afrique",
-        "capitale": "Le Caire",
-        "popu_cap": 9500000,
-        "altitude": 23,
-        "monnaie": ""
+        "capitale": "Le Caire"
     },
     {
-        "id": 173,
         "nom": "R\u00e9publique d\u00e9mocratique du Congo",
-        "iso": "CD",
         "population": 101780263,
-        "superficie": 2344858,
         "continent": "Afrique",
-        "capitale": "Kinshasa",
-        "popu_cap": 11855000,
-        "altitude": 240,
-        "monnaie": ""
+        "capitale": "Kinshasa"
     },
     {
-        "id": 44,
         "nom": "Congo (R\u00e9publique d\u00e9mocratique du)",
-        "iso": "CD",
         "population": 101780263,
-        "superficie": 2344858,
         "continent": "Afrique",
-        "capitale": "Kinshasa",
-        "popu_cap": 11855000,
-        "altitude": 240,
-        "monnaie": ""
+        "capitale": "Kinshasa"
     },
     {
-        "id": 229,
         "nom": "Vi\u00eat Nam",
-        "iso": "VN",
         "population": 98721275,
-        "superficie": 331212,
         "continent": "Asie",
-        "capitale": "Hano\u00ef",
-        "popu_cap": 7587800,
-        "altitude": 5,
-        "monnaie": ""
+        "capitale": "Hano\u00ef"
     },
     {
-        "id": 99,
         "nom": "Iran",
-        "iso": "IR",
         "population": 85028759,
-        "superficie": 1648195,
         "continent": "Asie",
-        "capitale": "T\u00e9h\u00e9ran",
-        "popu_cap": 8693706,
-        "altitude": 1200,
-        "monnaie": ""
+        "capitale": "T\u00e9h\u00e9ran"
     },
     {
-        "id": 222,
         "nom": "Turquie",
-        "iso": "TR",
         "population": 84339067,
-        "superficie": 783562,
         "continent": "Asie\/Europe",
-        "capitale": "Ankara",
-        "popu_cap": 5445026,
-        "altitude": 938,
-        "monnaie": ""
+        "capitale": "Ankara"
     },
     {
-        "id": 5,
         "nom": "Allemagne",
-        "iso": "DE",
         "population": 83190556,
-        "superficie": 357114,
         "continent": "Europe",
-        "capitale": "Berlin",
-        "popu_cap": 3748148,
-        "altitude": 34,
-        "monnaie": ""
+        "capitale": "Berlin"
     },
     {
-        "id": 214,
         "nom": "Tha\u00eflande",
-        "iso": "TH",
         "population": 69625582,
-        "superficie": 513120,
         "continent": "Asie",
-        "capitale": "Bangkok",
-        "popu_cap": 8281000,
-        "altitude": 2,
-        "monnaie": ""
+        "capitale": "Bangkok"
     },
     {
-        "id": 177,
         "nom": "Royaume-Uni",
-        "iso": "GB",
         "population": 68207116,
-        "superficie": 243610,
         "continent": "Europe",
-        "capitale": "Londres",
-        "popu_cap": 7556900,
-        "altitude": 35,
-        "monnaie": ""
+        "capitale": "Londres"
     },
     {
-        "id": 66,
         "nom": "France",
-        "iso": "FR",
         "population": 67413000,
-        "superficie": 643801,
         "continent": "Europe",
-        "capitale": "Paris",
-        "popu_cap": 2148271,
-        "altitude": 35,
-        "monnaie": ""
+        "capitale": "Paris"
     },
     {
-        "id": 104,
         "nom": "Italie",
-        "iso": "IT",
         "population": 60461826,
-        "superficie": 301340,
         "continent": "Europe",
-        "capitale": "Rome",
-        "popu_cap": 2870000,
-        "altitude": 21,
-        "monnaie": ""
+        "capitale": "Rome"
     },
     {
-        "id": 2,
         "nom": "Afrique du Sud",
-        "iso": "ZA",
         "population": 60041994,
-        "superficie": 1219090,
         "continent": "Afrique",
-        "capitale": "Pretoria",
-        "popu_cap": 1741000,
-        "altitude": 1339,
-        "monnaie": ""
+        "capitale": "Pretoria"
     },
     {
-        "id": 210,
         "nom": "Tanzanie",
-        "iso": "TZ",
         "population": 59734218,
-        "superficie": 945087,
         "continent": "Afrique",
-        "capitale": "Dodoma",
-        "popu_cap": 410956,
-        "altitude": 1133,
-        "monnaie": ""
+        "capitale": "Dodoma"
     },
     {
-        "id": 110,
         "nom": "Kenya",
-        "iso": "KE",
         "population": 54985698,
-        "superficie": 580367,
         "continent": "Afrique",
-        "capitale": "Nairobi",
-        "popu_cap": 4394073,
-        "altitude": 1661,
-        "monnaie": ""
+        "capitale": "Nairobi"
     },
     {
-        "id": 46,
         "nom": "Cor\u00e9e du Sud",
-        "iso": "KR",
         "population": 51269185,
-        "superficie": 100210,
         "continent": "Asie",
-        "capitale": "S\u00e9oul",
-        "popu_cap": 9776000,
-        "altitude": 38,
-        "monnaie": ""
+        "capitale": "S\u00e9oul"
     },
     {
-        "id": 41,
         "nom": "Colombie",
-        "iso": "CO",
         "population": 50882891,
-        "superficie": 1141748,
         "continent": "Am\u00e9rique",
-        "capitale": "Bogota",
-        "popu_cap": 7878783,
-        "altitude": 2640,
-        "monnaie": ""
+        "capitale": "Bogota"
     },
     {
-        "id": 59,
         "nom": "Espagne",
-        "iso": "ES",
         "population": 47431256,
-        "superficie": 505990,
         "continent": "Europe",
-        "capitale": "Madrid",
-        "popu_cap": 3255944,
-        "altitude": 667,
-        "monnaie": ""
+        "capitale": "Madrid"
     },
     {
-        "id": 155,
         "nom": "Ouganda",
-        "iso": "UG",
         "population": 45741007,
-        "superficie": 241551,
         "continent": "Afrique",
-        "capitale": "Kampala",
-        "popu_cap": 1353189,
-        "altitude": 1190,
-        "monnaie": ""
+        "capitale": "Kampala"
     },
     {
-        "id": 10,
         "nom": "Argentine",
-        "iso": "AR",
         "population": 45195774,
-        "superficie": 2780400,
         "continent": "Am\u00e9rique",
-        "capitale": "Buenos Aires",
-        "popu_cap": 2891082,
-        "altitude": 25,
-        "monnaie": ""
+        "capitale": "Buenos Aires"
     },
     {
-        "id": 4,
         "nom": "Alg\u00e9rie",
-        "iso": "DZ",
         "population": 44616624,
-        "superficie": 2381741,
         "continent": "Afrique",
-        "capitale": "Alger",
-        "popu_cap": 2364230,
-        "altitude": 266,
-        "monnaie": ""
+        "capitale": "Alger"
     },
     {
-        "id": 224,
         "nom": "Ukraine",
-        "iso": "UA",
         "population": 44246156,
-        "superficie": 603628,
         "continent": "Europe",
-        "capitale": "Kiev",
-        "popu_cap": 2814446,
-        "altitude": 179,
-        "monnaie": ""
+        "capitale": "Kiev"
     },
     {
-        "id": 199,
         "nom": "Soudan",
-        "iso": "SD",
         "population": 43849260,
-        "superficie": 1861484,
         "continent": "Afrique",
-        "capitale": "Khartoum",
-        "popu_cap": 5274321,
-        "altitude": 381,
-        "monnaie": ""
+        "capitale": "Khartoum"
     },
     {
-        "id": 100,
         "nom": "Iraq",
-        "iso": "IQ",
         "population": 41179350,
-        "superficie": 438317,
         "continent": "Asie",
-        "capitale": "Bagdad",
-        "popu_cap": 7144260,
-        "altitude": 34,
-        "monnaie": ""
+        "capitale": "Bagdad"
     },
     {
-        "id": 1,
         "nom": "Afghanistan",
-        "iso": "AF",
         "population": 38928346,
-        "superficie": 652230,
         "continent": "Asie",
-        "capitale": "Kaboul",
-        "popu_cap": 4635000,
-        "altitude": 1791,
-        "monnaie": ""
+        "capitale": "Kaboul"
     },
     {
-        "id": 167,
         "nom": "Pologne",
-        "iso": "PL",
         "population": 38433600,
-        "superficie": 312685,
         "continent": "Europe",
-        "capitale": "Varsovie",
-        "popu_cap": 1764615,
-        "altitude": 78,
-        "monnaie": ""
+        "capitale": "Varsovie"
     },
     {
-        "id": 37,
         "nom": "Canada",
-        "iso": "CA",
         "population": 37742154,
-        "superficie": 9984670,
         "continent": "Am\u00e9rique",
-        "capitale": "Ottawa",
-        "popu_cap": 812129,
-        "altitude": 70,
-        "monnaie": ""
+        "capitale": "Ottawa"
     },
     {
-        "id": 130,
         "nom": "Maroc",
-        "iso": "MA",
         "population": 36910560,
-        "superficie": 446550,
         "continent": "Afrique",
-        "capitale": "Rabat",
-        "popu_cap": 1655753,
-        "altitude": 70,
-        "monnaie": ""
+        "capitale": "Rabat"
     },
     {
-        "id": 9,
         "nom": "Arabie Saoudite",
-        "iso": "SA",
         "population": 35340683,
-        "superficie": 2149690,
         "continent": "Asie",
-        "capitale": "Riyad",
-        "popu_cap": 7677714,
-        "altitude": 612,
-        "monnaie": ""
+        "capitale": "Riyad"
     },
     {
-        "id": 156,
         "nom": "Ouzb\u00e9kistan",
-        "iso": "UZ",
         "population": 33469203,
-        "superficie": 447400,
         "continent": "Asie",
-        "capitale": "Tachkent",
-        "popu_cap": 2309000,
-        "altitude": 484,
-        "monnaie": ""
+        "capitale": "Tachkent"
     },
     {
-        "id": 164,
         "nom": "P\u00e9rou",
-        "iso": "PE",
         "population": 33359418,
-        "superficie": 1285216,
         "continent": "Am\u00e9rique",
-        "capitale": "Lima",
-        "popu_cap": 8574974,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Lima"
     },
     {
-        "id": 7,
         "nom": "Angola",
-        "iso": "AO",
         "population": 32866272,
-        "superficie": 1246700,
         "continent": "Afrique",
-        "capitale": "Luanda",
-        "popu_cap": 2776168,
-        "altitude": 74,
-        "monnaie": ""
+        "capitale": "Luanda"
     },
     {
-        "id": 125,
         "nom": "Malaisie",
-        "iso": "MY",
         "population": 32365999,
-        "superficie": 330803,
         "continent": "Asie",
-        "capitale": "Kuala Lumpur",
-        "popu_cap": 1588750,
-        "altitude": 22,
-        "monnaie": ""
+        "capitale": "Kuala Lumpur"
     },
     {
-        "id": 142,
         "nom": "Mozambique",
-        "iso": "MZ",
         "population": 31255435,
-        "superficie": 799380,
         "continent": "Afrique",
-        "capitale": "Maputo",
-        "popu_cap": 1101170,
-        "altitude": 44,
-        "monnaie": ""
+        "capitale": "Maputo"
     },
     {
-        "id": 70,
         "nom": "Ghana",
-        "iso": "GH",
         "population": 31072940,
-        "superficie": 238533,
         "continent": "Afrique",
-        "capitale": "Accra",
-        "popu_cap": 2269107,
-        "altitude": 61,
-        "monnaie": ""
+        "capitale": "Accra"
     },
     {
-        "id": 231,
         "nom": "Y\u00e9men",
-        "iso": "YE",
         "population": 30129200,
-        "superficie": 527968,
         "continent": "Asie",
-        "capitale": "Sanaa",
-        "popu_cap": 2501564,
-        "altitude": 2200,
-        "monnaie": ""
+        "capitale": "Sanaa"
     },
     {
-        "id": 145,
         "nom": "N\u00e9pal",
-        "iso": "NP",
         "population": 29609623,
-        "superficie": 147181,
         "continent": "Asie",
-        "capitale": "Katmandou",
-        "popu_cap": 1442271,
-        "altitude": 1400,
-        "monnaie": ""
+        "capitale": "Katmandou"
     },
     {
-        "id": 228,
         "nom": "Venezuela",
-        "iso": "VE",
         "population": 28435940,
-        "superficie": 916445,
         "continent": "Am\u00e9rique",
-        "capitale": "Caracas",
-        "popu_cap": 2707602,
-        "altitude": 900,
-        "monnaie": ""
+        "capitale": "Caracas"
     },
     {
-        "id": 124,
         "nom": "Madagascar",
-        "iso": "MG",
         "population": 28423681,
-        "superficie": 587041,
         "continent": "Afrique",
-        "capitale": "Antananarivo",
-        "popu_cap": 1391433,
-        "altitude": 1276,
-        "monnaie": ""
+        "capitale": "Antananarivo"
     },
     {
-        "id": 36,
         "nom": "Cameroun",
-        "iso": "CM",
         "population": 26545863,
-        "superficie": 475442,
         "continent": "Afrique",
-        "capitale": "Yaounde",
-        "popu_cap": 1299369,
-        "altitude": 726,
-        "monnaie": ""
+        "capitale": "Yaounde"
     },
     {
-        "id": 48,
         "nom": "C\u00f4te d'Ivoire",
-        "iso": "CI",
         "population": 26378274,
-        "superficie": 322463,
         "continent": "Afrique",
-        "capitale": "Yamoussoukro",
-        "popu_cap": 200659,
-        "altitude": 200,
-        "monnaie": ""
+        "capitale": "Yamoussoukro"
     },
     {
-        "id": 45,
         "nom": "Cor\u00e9e du Nord",
-        "iso": "KP",
         "population": 25778816,
-        "superficie": 120538,
         "continent": "Asie",
-        "capitale": "Pyongyang",
-        "popu_cap": 2864000,
-        "altitude": 22,
-        "monnaie": ""
+        "capitale": "Pyongyang"
     },
     {
-        "id": 12,
         "nom": "Australie",
-        "iso": "AU",
         "population": 25499884,
-        "superficie": 7692024,
         "continent": "Oc\u00e9anie",
-        "capitale": "Canberra",
-        "popu_cap": 381488,
-        "altitude": 577,
-        "monnaie": ""
+        "capitale": "Canberra"
     },
     {
-        "id": 147,
         "nom": "Niger",
-        "iso": "NE",
         "population": 24206644,
-        "superficie": 1267000,
         "continent": "Afrique",
-        "capitale": "Niamey",
-        "popu_cap": 1302910,
-        "altitude": 207,
-        "monnaie": ""
+        "capitale": "Niamey"
     },
     {
-        "id": 209,
         "nom": "Ta\u00efwan",
-        "iso": "TW",
         "population": 23598855,
-        "superficie": 36193,
         "continent": "Asie",
-        "capitale": "Taipei",
-        "popu_cap": 2704974,
-        "altitude": 9,
-        "monnaie": ""
+        "capitale": "Taipei"
     },
     {
-        "id": 201,
         "nom": "Sri Lanka",
-        "iso": "LK",
         "population": 21803000,
-        "superficie": 65610,
         "continent": "Asie",
-        "capitale": "Sri Jayawardenapura Kotte",
-        "popu_cap": 115826,
-        "altitude": 35,
-        "monnaie": ""
+        "capitale": "Sri Jayawardenapura Kotte"
     },
     {
-        "id": 32,
         "nom": "Burkina Faso",
-        "iso": "BF",
         "population": 20903273,
-        "superficie": 274222,
         "continent": "Afrique",
-        "capitale": "Ouagadougou",
-        "popu_cap": 1086505,
-        "altitude": 305,
-        "monnaie": ""
+        "capitale": "Ouagadougou"
     },
     {
-        "id": 128,
         "nom": "Mali",
-        "iso": "ML",
         "population": 20250833,
-        "superficie": 1240192,
         "continent": "Afrique",
-        "capitale": "Bamako",
-        "popu_cap": 1809106,
-        "altitude": 350,
-        "monnaie": ""
+        "capitale": "Bamako"
     },
     {
-        "id": 176,
         "nom": "Roumanie",
-        "iso": "RO",
         "population": 19511000,
-        "superficie": 238391,
         "continent": "Europe",
-        "capitale": "Bucarest",
-        "popu_cap": 1883425,
-        "altitude": 70,
-        "monnaie": ""
+        "capitale": "Bucarest"
     },
     {
-        "id": 38,
         "nom": "Chili",
-        "iso": "CL",
         "population": 19458310,
-        "superficie": 756102,
         "continent": "Am\u00e9rique",
-        "capitale": "Santiago",
-        "popu_cap": 7000000,
-        "altitude": 520,
-        "monnaie": ""
+        "capitale": "Santiago"
     },
     {
-        "id": 126,
         "nom": "Malawi",
-        "iso": "MW",
         "population": 19129952,
-        "superficie": 118484,
         "continent": "Afrique",
-        "capitale": "Lilongwe",
-        "popu_cap": 646750,
-        "altitude": 1050,
-        "monnaie": ""
+        "capitale": "Lilongwe"
     },
     {
-        "id": 109,
         "nom": "Kazakhstan",
-        "iso": "KZ",
         "population": 18776707,
-        "superficie": 2724900,
         "continent": "Asie",
-        "capitale": "Nur-Sultan",
-        "popu_cap": 1084000,
-        "altitude": 347,
-        "monnaie": ""
+        "capitale": "Nur-Sultan"
     },
     {
-        "id": 232,
         "nom": "Zambie",
-        "iso": "ZM",
         "population": 18383955,
-        "superficie": 752612,
         "continent": "Afrique",
-        "capitale": "Lusaka",
-        "popu_cap": 1742979,
-        "altitude": 1279,
-        "monnaie": ""
+        "capitale": "Lusaka"
     },
     {
-        "id": 76,
         "nom": "Guatemala",
-        "iso": "GT",
         "population": 18068000,
-        "superficie": 108889,
         "continent": "Am\u00e9rique",
-        "capitale": "Guatemala",
-        "popu_cap": 994938,
-        "altitude": 1500,
-        "monnaie": ""
+        "capitale": "Guatemala"
     },
     {
-        "id": 163,
         "nom": "Pays-Bas",
-        "iso": "NL",
         "population": 17712695,
-        "superficie": 41543,
         "continent": "Europe",
-        "capitale": "Amsterdam",
-        "popu_cap": 821752,
-        "altitude": -2,
-        "monnaie": ""
+        "capitale": "Amsterdam"
     },
     {
-        "id": 57,
         "nom": "\u00c9quateur",
-        "iso": "EC",
         "population": 17643054,
-        "superficie": 283561,
         "continent": "Am\u00e9rique",
-        "capitale": "Quito",
-        "popu_cap": 1399814,
-        "altitude": 2850,
-        "monnaie": ""
+        "capitale": "Quito"
     },
     {
-        "id": 207,
         "nom": "Syrie",
-        "iso": "SY",
         "population": 17070135,
-        "superficie": 185180,
         "continent": "Asie",
-        "capitale": "Damas",
-        "popu_cap": 1711000,
-        "altitude": 700,
-        "monnaie": ""
+        "capitale": "Damas"
     },
     {
-        "id": 35,
         "nom": "Cambodge",
-        "iso": "KH",
         "population": 16718965,
-        "superficie": 181035,
         "continent": "Asie",
-        "capitale": "Phnom Penh",
-        "popu_cap": 1573544,
-        "altitude": 8,
-        "monnaie": ""
+        "capitale": "Phnom Penh"
     },
     {
-        "id": 211,
         "nom": "Tchad",
-        "iso": "TD",
         "population": 16425864,
-        "superficie": 1284000,
         "continent": "Afrique",
-        "capitale": "N'Djam\u00e9na",
-        "popu_cap": 1092066,
-        "altitude": 295,
-        "monnaie": ""
+        "capitale": "N'Djam\u00e9na"
     },
     {
-        "id": 198,
         "nom": "Somalie",
-        "iso": "SO",
         "population": 16359000,
-        "superficie": 637657,
         "continent": "Afrique",
-        "capitale": "Mogadiscio",
-        "popu_cap": 2120000,
-        "altitude": 10,
-        "monnaie": ""
+        "capitale": "Mogadiscio"
     },
     {
-        "id": 191,
         "nom": "S\u00e9n\u00e9gal",
-        "iso": "SN",
         "population": 16296364,
-        "superficie": 196722,
         "continent": "Afrique",
-        "capitale": "Dakar",
-        "popu_cap": 2635000,
-        "altitude": 22,
-        "monnaie": ""
+        "capitale": "Dakar"
     },
     {
-        "id": 233,
         "nom": "Zimbabwe",
-        "iso": "ZW",
         "population": 14862924,
-        "superficie": 390757,
         "continent": "Afrique",
-        "capitale": "Harare",
-        "popu_cap": 1542813,
-        "altitude": 1483,
-        "monnaie": ""
+        "capitale": "Harare"
     },
     {
-        "id": 179,
         "nom": "Rwanda",
-        "iso": "RW",
         "population": 13243596,
-        "superficie": 26338,
         "continent": "Afrique",
-        "capitale": "Kigali",
-        "popu_cap": 745261,
-        "altitude": 1567,
-        "monnaie": ""
+        "capitale": "Kigali"
     },
     {
-        "id": 78,
         "nom": "Guin\u00e9e",
-        "iso": "GN",
         "population": 13132795,
-        "superficie": 245857,
         "continent": "Afrique",
-        "capitale": "Conakry",
-        "popu_cap": 1767200,
-        "altitude": 9,
-        "monnaie": ""
+        "capitale": "Conakry"
     },
     {
-        "id": 22,
         "nom": "B\u00e9nin",
-        "iso": "BJ",
         "population": 12123200,
-        "superficie": 112622,
         "continent": "Afrique",
-        "capitale": "Porto-Novo",
-        "popu_cap": 267084,
-        "altitude": 38,
-        "monnaie": ""
+        "capitale": "Porto-Novo"
     },
     {
-        "id": 33,
         "nom": "Burundi",
-        "iso": "BI",
         "population": 11890784,
-        "superficie": 27834,
         "continent": "Afrique",
-        "capitale": "Bujumbura",
-        "popu_cap": 331700,
-        "altitude": 774,
-        "monnaie": ""
+        "capitale": "Bujumbura"
     },
     {
-        "id": 220,
         "nom": "Tunisie",
-        "iso": "TN",
         "population": 11818619,
-        "superficie": 163610,
         "continent": "Afrique",
-        "capitale": "Tunis",
-        "popu_cap": 1056247,
-        "altitude": 12,
-        "monnaie": ""
+        "capitale": "Tunis"
     },
     {
-        "id": 26,
         "nom": "Bolivie",
-        "iso": "BO",
         "population": 11673021,
-        "superficie": 1098581,
         "continent": "Am\u00e9rique",
-        "capitale": "La Paz",
-        "popu_cap": 789541,
-        "altitude": 3640,
-        "monnaie": ""
+        "capitale": "La Paz"
     },
     {
-        "id": 20,
         "nom": "Belgique",
-        "iso": "BE",
         "population": 11632186,
-        "superficie": 30528,
         "continent": "Europe",
-        "capitale": "Bruxelles",
-        "popu_cap": 1191604,
-        "altitude": 23,
-        "monnaie": ""
+        "capitale": "Bruxelles"
     },
     {
-        "id": 82,
         "nom": "Ha\u00efti",
-        "iso": "HT",
         "population": 11402528,
-        "superficie": 27065,
         "continent": "Am\u00e9rique",
-        "capitale": "Port-au-Prince",
-        "popu_cap": 1234742,
-        "altitude": 30,
-        "monnaie": ""
+        "capitale": "Port-au-Prince"
     },
     {
-        "id": 50,
         "nom": "Cuba",
-        "iso": "CU",
         "population": 11326616,
-        "superficie": 109884,
         "continent": "Am\u00e9rique",
-        "capitale": "La Havane",
-        "popu_cap": 2163824,
-        "altitude": 59,
-        "monnaie": ""
+        "capitale": "La Havane"
     },
     {
-        "id": 200,
         "nom": "Soudan du Sud",
-        "iso": "SS",
         "population": 11062113,
-        "superficie": 619745,
         "continent": "Afrique",
-        "capitale": "Djouba",
-        "popu_cap": 450,
-        "altitude": 550,
-        "monnaie": ""
+        "capitale": "Djouba"
     },
     {
-        "id": 174,
         "nom": "R\u00e9publique dominicaine",
-        "iso": "DO",
         "population": 10847910,
-        "superficie": 48442,
         "continent": "Am\u00e9rique",
-        "capitale": "Saint-Domingue",
-        "popu_cap": 2201941,
-        "altitude": 14,
-        "monnaie": ""
+        "capitale": "Saint-Domingue"
     },
     {
-        "id": 108,
         "nom": "Jordanie",
-        "iso": "JO",
         "population": 10756619,
-        "superficie": 89342,
         "continent": "Asie",
-        "capitale": "Amman",
-        "popu_cap": 4007526,
-        "altitude": 777,
-        "monnaie": ""
+        "capitale": "Amman"
     },
     {
-        "id": 212,
         "nom": "Tch\u00e9quie",
-        "iso": "CZ",
         "population": 10724555,
-        "superficie": 78866,
         "continent": "Europe",
-        "capitale": "Prague",
-        "popu_cap": 1324277,
-        "altitude": 235,
-        "monnaie": ""
+        "capitale": "Prague"
     },
     {
-        "id": 175,
         "nom": "R\u00e9publique tch\u00e8que",
-        "iso": "CZ",
         "population": 10724555,
-        "superficie": 78866,
         "continent": "Europe",
-        "capitale": "Prague",
-        "popu_cap": 1324277,
-        "altitude": 235,
-        "monnaie": ""
+        "capitale": "Prague"
     },
     {
-        "id": 72,
         "nom": "Gr\u00e8ce",
-        "iso": "GR",
         "population": 10423054,
-        "superficie": 131957,
         "continent": "Europe",
-        "capitale": "Ath\u00e8nes",
-        "popu_cap": 3153665,
-        "altitude": 70,
-        "monnaie": ""
+        "capitale": "Ath\u00e8nes"
     },
     {
-        "id": 202,
         "nom": "Su\u00e8de",
-        "iso": "SE",
         "population": 10379295,
-        "superficie": 450295,
         "continent": "Europe",
-        "capitale": "Stockholm",
-        "popu_cap": 975551,
-        "altitude": 44,
-        "monnaie": ""
+        "capitale": "Stockholm"
     },
     {
-        "id": 170,
         "nom": "Portugal",
-        "iso": "PT",
         "population": 10295714,
-        "superficie": 92212,
         "continent": "Europe",
-        "capitale": "Lisbonne",
-        "popu_cap": 547631,
-        "altitude": 2,
-        "monnaie": ""
+        "capitale": "Lisbonne"
     },
     {
-        "id": 14,
         "nom": "Azerba\u00efdjan",
-        "iso": "AZ",
         "population": 10139177,
-        "superficie": 86600,
         "continent": "Asie",
-        "capitale": "Bakou",
-        "popu_cap": 2262600,
-        "altitude": 28,
-        "monnaie": ""
+        "capitale": "Bakou"
     },
     {
-        "id": 83,
         "nom": "Honduras",
-        "iso": "HN",
         "population": 9904607,
-        "superficie": 112492,
         "continent": "Am\u00e9rique",
-        "capitale": "Tegucigalpa",
-        "popu_cap": 1157509,
-        "altitude": 990,
-        "monnaie": ""
+        "capitale": "Tegucigalpa"
     },
     {
-        "id": 56,
         "nom": "\u00c9mirats arabes unis",
-        "iso": "AE",
         "population": 9890402,
-        "superficie": 83600,
         "continent": "Asie",
-        "capitale": "Abou Dabi",
-        "popu_cap": 1600000,
-        "altitude": 27,
-        "monnaie": ""
+        "capitale": "Abou Dabi"
     },
     {
-        "id": 84,
         "nom": "Hongrie",
-        "iso": "HU",
         "population": 9660351,
-        "superficie": 93030,
         "continent": "Europe",
-        "capitale": "Budapest",
-        "popu_cap": 1752704,
-        "altitude": 96,
-        "monnaie": ""
+        "capitale": "Budapest"
     },
     {
-        "id": 208,
         "nom": "Tadjikistan",
-        "iso": "TJ",
         "population": 9537645,
-        "superficie": 143100,
         "continent": "Asie",
-        "capitale": "Douchanb\u00e9",
-        "popu_cap": 802700,
-        "altitude": 800,
-        "monnaie": ""
+        "capitale": "Douchanb\u00e9"
     },
     {
-        "id": 103,
         "nom": "Isra\u00ebl",
-        "iso": "IL",
         "population": 9505700,
-        "superficie": 22072,
         "continent": "Asie",
-        "capitale": "J\u00e9rusalem",
-        "popu_cap": 919438,
-        "altitude": 754,
-        "monnaie": ""
+        "capitale": "J\u00e9rusalem"
     },
     {
-        "id": 25,
         "nom": "Bi\u00e9lorussie",
-        "iso": "BY",
         "population": 9485300,
-        "superficie": 207600,
         "continent": "Europe",
-        "capitale": "Minsk",
-        "popu_cap": 1742124,
-        "altitude": 220,
-        "monnaie": ""
+        "capitale": "Minsk"
     },
     {
-        "id": 19,
         "nom": "B\u00e9larus",
-        "iso": "BY",
         "population": 9413446,
-        "superficie": 207595,
         "continent": "Europe",
-        "capitale": "Minsk",
-        "popu_cap": 1921807,
-        "altitude": 220,
-        "monnaie": ""
+        "capitale": "Minsk"
     },
     {
-        "id": 161,
         "nom": "Papouasie-Nouvelle-Guin\u00e9e",
-        "iso": "PG",
         "population": 9119010,
-        "superficie": 462840,
         "continent": "Oc\u00e9anie",
-        "capitale": "Port Moresby",
-        "popu_cap": 364145,
-        "altitude": 110,
-        "monnaie": ""
+        "capitale": "Port Moresby"
     },
     {
-        "id": 13,
         "nom": "Autriche",
-        "iso": "AT",
         "population": 9006398,
-        "superficie": 83871,
         "continent": "Europe",
-        "capitale": "Vienne",
-        "popu_cap": 1897491,
-        "altitude": 171,
-        "monnaie": ""
+        "capitale": "Vienne"
     },
     {
-        "id": 203,
         "nom": "Suisse",
-        "iso": "CH",
         "population": 8654622,
-        "superficie": 41290,
         "continent": "Europe",
-        "capitale": "Berne",
-        "popu_cap": 133883,
-        "altitude": 542,
-        "monnaie": ""
+        "capitale": "Berne"
     },
     {
-        "id": 216,
         "nom": "Togo",
-        "iso": "TG",
         "population": 8278724,
-        "superficie": 56785,
         "continent": "Afrique",
-        "capitale": "Lom\u00e9",
-        "popu_cap": 837437,
-        "altitude": 10,
-        "monnaie": ""
+        "capitale": "Lom\u00e9"
     },
     {
-        "id": 194,
         "nom": "Sierra Leone",
-        "iso": "SL",
         "population": 7976983,
-        "superficie": 71740,
         "continent": "Afrique",
-        "capitale": "Freetown",
-        "popu_cap": 1055964,
-        "altitude": 24,
-        "monnaie": ""
+        "capitale": "Freetown"
     },
     {
-        "id": 114,
         "nom": "Laos",
-        "iso": "LA",
         "population": 7169455,
-        "superficie": 236800,
         "continent": "Asie",
-        "capitale": "Vientiane",
-        "popu_cap": 820940,
-        "altitude": 174,
-        "monnaie": ""
+        "capitale": "Vientiane"
     },
     {
-        "id": 162,
         "nom": "Paraguay",
-        "iso": "PY",
         "population": 7152703,
-        "superficie": 406752,
         "continent": "Am\u00e9rique",
-        "capitale": "Asunci\u00f3n",
-        "popu_cap": 525294,
-        "altitude": 48,
-        "monnaie": ""
+        "capitale": "Asunci\u00f3n"
     },
     {
-        "id": 31,
         "nom": "Bulgarie",
-        "iso": "BG",
         "population": 6948445,
-        "superficie": 110879,
         "continent": "Europe",
-        "capitale": "Sofia",
-        "popu_cap": 1204685,
-        "altitude": 550,
-        "monnaie": ""
+        "capitale": "Sofia"
     },
     {
-        "id": 192,
         "nom": "Serbie",
-        "iso": "RS",
         "population": 6945299,
-        "superficie": 88361,
         "continent": "Europe",
-        "capitale": "Belgrade",
-        "popu_cap": 1233796,
-        "altitude": 117,
-        "monnaie": ""
+        "capitale": "Belgrade"
     },
     {
-        "id": 119,
         "nom": "Libye",
-        "iso": "LY",
         "population": 6871287,
-        "superficie": 1759540,
         "continent": "Afrique",
-        "capitale": "Tripoli",
-        "popu_cap": 1150989,
-        "altitude": 81,
-        "monnaie": ""
+        "capitale": "Tripoli"
     },
     {
-        "id": 117,
         "nom": "Liban",
-        "iso": "LB",
         "population": 6825445,
-        "superficie": 10452,
         "continent": "Asie",
-        "capitale": "Beyrouth",
-        "popu_cap": 1916100,
-        "altitude": 71,
-        "monnaie": ""
+        "capitale": "Beyrouth"
     },
     {
-        "id": 111,
         "nom": "Kirghizistan",
-        "iso": "KG",
         "population": 6634648,
-        "superficie": 199951,
         "continent": "Asie",
-        "capitale": "Bichkek",
-        "popu_cap": 1250000,
-        "altitude": 800,
-        "monnaie": ""
+        "capitale": "Bichkek"
     },
     {
-        "id": 146,
         "nom": "Nicaragua",
-        "iso": "NI",
         "population": 6624554,
-        "superficie": 130373,
         "continent": "Am\u00e9rique",
-        "capitale": "Managua",
-        "popu_cap": 1380300,
-        "altitude": 83,
-        "monnaie": ""
+        "capitale": "Managua"
     },
     {
-        "id": 221,
         "nom": "Turkm\u00e9nistan",
-        "iso": "TM",
         "population": 6031200,
-        "superficie": 488100,
         "continent": "Asie",
-        "capitale": "Achgabat",
-        "popu_cap": 1031992,
-        "altitude": 219,
-        "monnaie": ""
+        "capitale": "Achgabat"
     },
     {
-        "id": 195,
         "nom": "Singapour",
-        "iso": "SG",
         "population": 5896686,
-        "superficie": 728,
         "continent": "Asie",
-        "capitale": "Singapour",
-        "popu_cap": 5535000,
-        "altitude": 15,
-        "monnaie": ""
+        "capitale": "Singapour"
     },
     {
-        "id": 52,
         "nom": "Danemark",
-        "iso": "DK",
         "population": 5813298,
-        "superficie": 42931,
         "continent": "Europe",
-        "capitale": "Copenhague",
-        "popu_cap": 1153615,
-        "altitude": 5,
-        "monnaie": ""
+        "capitale": "Copenhague"
     },
     {
-        "id": 65,
         "nom": "Finlande",
-        "iso": "FI",
         "population": 5540720,
-        "superficie": 338145,
         "continent": "Europe",
-        "capitale": "Helsinki",
-        "popu_cap": 648042,
-        "altitude": 17,
-        "monnaie": ""
+        "capitale": "Helsinki"
     },
     {
-        "id": 43,
         "nom": "Congo",
-        "iso": "CG",
         "population": 5518087,
-        "superficie": 342,
         "continent": "Afrique",
-        "capitale": "Brazzaville",
-        "popu_cap": 1200000,
-        "altitude": 320,
-        "monnaie": ""
+        "capitale": "Brazzaville"
     },
     {
-        "id": 196,
         "nom": "Slovaquie",
-        "iso": "SK",
         "population": 5460719,
-        "superficie": 49035,
         "continent": "Europe",
-        "capitale": "Bratislava",
-        "popu_cap": 432801,
-        "altitude": 134,
-        "monnaie": ""
+        "capitale": "Bratislava"
     },
     {
-        "id": 151,
         "nom": "Norv\u00e8ge",
-        "iso": "NO",
         "population": 5421241,
-        "superficie": 323802,
         "continent": "Europe",
-        "capitale": "Oslo",
-        "popu_cap": 634293,
-        "altitude": 23,
-        "monnaie": ""
+        "capitale": "Oslo"
     },
     {
-        "id": 47,
         "nom": "Costa Rica",
-        "iso": "CR",
         "population": 5163714,
-        "superficie": 51100,
         "continent": "Am\u00e9rique",
-        "capitale": "San Jos\u00e9",
-        "popu_cap": 288054,
-        "altitude": 1161,
-        "monnaie": ""
+        "capitale": "San Jos\u00e9"
     },
     {
-        "id": 153,
         "nom": "Nouvelle-Z\u00e9lande",
-        "iso": "NZ",
         "population": 5112300,
-        "superficie": 268021,
         "continent": "Oc\u00e9anie",
-        "capitale": "Wellington",
-        "popu_cap": 418500,
-        "altitude": 25,
-        "monnaie": ""
+        "capitale": "Wellington"
     },
     {
-        "id": 154,
         "nom": "Oman",
-        "iso": "OM",
         "population": 5106626,
-        "superficie": 309500,
         "continent": "Asie",
-        "capitale": "Mascate",
-        "popu_cap": 797,
-        "altitude": 14,
-        "monnaie": ""
+        "capitale": "Mascate"
     },
     {
-        "id": 159,
         "nom": "Palestine",
-        "iso": "PS",
         "population": 5101414,
-        "superficie": 6220,
         "continent": "Asie",
-        "capitale": "J\u00e9rusalem-Est",
-        "popu_cap": 456,
-        "altitude": 754,
-        "monnaie": ""
+        "capitale": "J\u00e9rusalem-Est"
     },
     {
-        "id": 118,
         "nom": "Liberia",
-        "iso": "LR",
         "population": 5057681,
-        "superficie": 111369,
         "continent": "Afrique",
-        "capitale": "Monrovia",
-        "popu_cap": 1010970,
-        "altitude": 3,
-        "monnaie": ""
+        "capitale": "Monrovia"
     },
     {
-        "id": 101,
         "nom": "Irlande",
-        "iso": "IE",
         "population": 4937786,
-        "superficie": 70273,
         "continent": "Europe",
-        "capitale": "Dublin",
-        "popu_cap": 1173179,
-        "altitude": 20,
-        "monnaie": ""
+        "capitale": "Dublin"
     },
     {
-        "id": 172,
         "nom": "R\u00e9publique centrafricaine",
-        "iso": "CF",
         "population": 4829767,
-        "superficie": 622984,
         "continent": "Afrique",
-        "capitale": "Bangui",
-        "popu_cap": 831925,
-        "altitude": 369,
-        "monnaie": ""
+        "capitale": "Bangui"
     },
     {
-        "id": 133,
         "nom": "Mauritanie",
-        "iso": "MR",
         "population": 4649658,
-        "superficie": 1030700,
         "continent": "Afrique",
-        "capitale": "Nouakchott",
-        "popu_cap": 958399,
-        "altitude": 7,
-        "monnaie": ""
+        "capitale": "Nouakchott"
     },
     {
-        "id": 160,
         "nom": "Panama",
-        "iso": "PA",
         "population": 4381579,
-        "superficie": 75517,
         "continent": "Am\u00e9rique",
-        "capitale": "Panama",
-        "popu_cap": 880691,
-        "altitude": 20,
-        "monnaie": ""
+        "capitale": "Panama"
     },
     {
-        "id": 113,
         "nom": "Kowe\u00eft",
-        "iso": "KW",
         "population": 4328550,
-        "superficie": 17818,
         "continent": "Asie",
-        "capitale": "Kowe\u00eft",
-        "popu_cap": 2380000,
-        "altitude": 55,
-        "monnaie": ""
+        "capitale": "Kowe\u00eft"
     },
     {
-        "id": 49,
         "nom": "Croatie",
-        "iso": "HR",
         "population": 4058165,
-        "superficie": 56542,
         "continent": "Europe",
-        "capitale": "Zagreb",
-        "popu_cap": 790017,
-        "altitude": 122,
-        "monnaie": ""
+        "capitale": "Zagreb"
     },
     {
-        "id": 69,
         "nom": "G\u00e9orgie",
-        "iso": "GE",
         "population": 3716858,
-        "superficie": 69700,
         "continent": "Asie",
-        "capitale": "Tbilissi",
-        "popu_cap": 1118035,
-        "altitude": 380,
-        "monnaie": ""
+        "capitale": "Tbilissi"
     },
     {
-        "id": 58,
         "nom": "\u00c9rythr\u00e9e",
-        "iso": "ER",
         "population": 3546421,
-        "superficie": 117600,
         "continent": "Afrique",
-        "capitale": "Asmara",
-        "popu_cap": 649,
-        "altitude": 2325,
-        "monnaie": ""
+        "capitale": "Asmara"
     },
     {
-        "id": 225,
         "nom": "Uruguay",
-        "iso": "UY",
         "population": 3485151,
-        "superficie": 176215,
         "continent": "Am\u00e9rique",
-        "capitale": "Montevideo",
-        "popu_cap": 1304687,
-        "altitude": 43,
-        "monnaie": ""
+        "capitale": "Montevideo"
     },
     {
-        "id": 139,
         "nom": "Mongolie",
-        "iso": "MN",
         "population": 3329289,
-        "superficie": 1564116,
         "continent": "Asie",
-        "capitale": "Oulan-Bator",
-        "popu_cap": 1376000,
-        "altitude": 1310,
-        "monnaie": ""
+        "capitale": "Oulan-Bator"
     },
     {
-        "id": 169,
         "nom": "Porto Rico",
-        "iso": "PR",
         "population": 3285874,
-        "superficie": 9104,
         "continent": "Am\u00e9rique",
-        "capitale": "San Juan",
-        "popu_cap": 395326,
-        "altitude": 8,
-        "monnaie": ""
+        "capitale": "San Juan"
     },
     {
-        "id": 27,
         "nom": "Bosnie-Herz\u00e9govine",
-        "iso": "BA",
         "population": 3280819,
-        "superficie": 51197,
         "continent": "Europe",
-        "capitale": "Sarajevo",
-        "popu_cap": 275524,
-        "altitude": 518,
-        "monnaie": ""
+        "capitale": "Sarajevo"
     },
     {
-        "id": 11,
         "nom": "Arm\u00e9nie",
-        "iso": "AM",
         "population": 2963243,
-        "superficie": 29743,
         "continent": "Asie",
-        "capitale": "Erevan",
-        "popu_cap": 1093485,
-        "altitude": 999,
-        "monnaie": ""
+        "capitale": "Erevan"
     },
     {
-        "id": 105,
         "nom": "Jama\u00efque",
-        "iso": "JM",
         "population": 2934847,
-        "superficie": 10991,
         "continent": "Am\u00e9rique",
-        "capitale": "Kingston",
-        "popu_cap": 937700,
-        "altitude": 10,
-        "monnaie": ""
+        "capitale": "Kingston"
     },
     {
-        "id": 171,
         "nom": "Qatar",
-        "iso": "QA",
         "population": 2881053,
-        "superficie": 11586,
         "continent": "Asie",
-        "capitale": "Doha",
-        "popu_cap": 956460,
-        "altitude": 10,
-        "monnaie": ""
+        "capitale": "Doha"
     },
     {
-        "id": 3,
         "nom": "Albanie",
-        "iso": "AL",
         "population": 2845955,
-        "superficie": 28748,
         "continent": "Europe",
-        "capitale": "Tirana",
-        "popu_cap": 421286,
-        "altitude": 110,
-        "monnaie": ""
+        "capitale": "Tirana"
     },
     {
-        "id": 121,
         "nom": "Lituanie",
-        "iso": "LT",
         "population": 2722289,
-        "superficie": 65300,
         "continent": "Europe",
-        "capitale": "Vilnius",
-        "popu_cap": 542664,
-        "altitude": 112,
-        "monnaie": ""
+        "capitale": "Vilnius"
     },
     {
-        "id": 137,
         "nom": "Moldavie",
-        "iso": "MD",
         "population": 2681735,
-        "superficie": 33846,
         "continent": "Europe",
-        "capitale": "Chi\u0219in\u0103u",
-        "popu_cap": 635994,
-        "altitude": 50,
-        "monnaie": ""
+        "capitale": "Chi\u0219in\u0103u"
     },
     {
-        "id": 143,
         "nom": "Namibie",
-        "iso": "NA",
         "population": 2540905,
-        "superficie": 825615,
         "continent": "Afrique",
-        "capitale": "Windhoek",
-        "popu_cap": 322500,
-        "altitude": 1660,
-        "monnaie": ""
+        "capitale": "Windhoek"
     },
     {
-        "id": 68,
         "nom": "Gambie",
-        "iso": "GM",
         "population": 2416668,
-        "superficie": 11295,
         "continent": "Afrique",
-        "capitale": "Banjul",
-        "popu_cap": 34589,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Banjul"
     },
     {
-        "id": 28,
         "nom": "Botswana",
-        "iso": "BW",
         "population": 2351627,
-        "superficie": 581730,
         "continent": "Afrique",
-        "capitale": "Gaborone",
-        "popu_cap": 231592,
-        "altitude": 1013,
-        "monnaie": ""
+        "capitale": "Gaborone"
     },
     {
-        "id": 67,
         "nom": "Gabon",
-        "iso": "GA",
         "population": 2278825,
-        "superficie": 267667,
         "continent": "Afrique",
-        "capitale": "Libreville",
-        "popu_cap": 797003,
-        "altitude": 20,
-        "monnaie": ""
+        "capitale": "Libreville"
     },
     {
-        "id": 115,
         "nom": "Lesotho",
-        "iso": "LS",
         "population": 2142249,
-        "superficie": 30355,
         "continent": "Afrique",
-        "capitale": "Maseru",
-        "popu_cap": 227880,
-        "altitude": 1600,
-        "monnaie": ""
+        "capitale": "Maseru"
     },
     {
-        "id": 197,
         "nom": "Slov\u00e9nie",
-        "iso": "SI",
         "population": 2102678,
-        "superficie": 20273,
         "continent": "Europe",
-        "capitale": "Ljubljana",
-        "popu_cap": 292988,
-        "altitude": 298,
-        "monnaie": ""
+        "capitale": "Ljubljana"
     },
     {
-        "id": 123,
         "nom": "Mac\u00e9doine du Nord",
-        "iso": "MK",
         "population": 2083374,
-        "superficie": 25713,
         "continent": "Europe",
-        "capitale": "Skopje",
-        "popu_cap": 506926,
-        "altitude": 245,
-        "monnaie": ""
+        "capitale": "Skopje"
     },
     {
-        "id": 79,
         "nom": "Guin\u00e9e-Bissau",
-        "iso": "GW",
         "population": 1968001,
-        "superficie": 36125,
         "continent": "Afrique",
-        "capitale": "Bissau",
-        "popu_cap": 388028,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Bissau"
     },
     {
-        "id": 116,
         "nom": "Lettonie",
-        "iso": "LV",
         "population": 1886198,
-        "superficie": 64589,
         "continent": "Europe",
-        "capitale": "Riga",
-        "popu_cap": 632614,
-        "altitude": 6,
-        "monnaie": ""
+        "capitale": "Riga"
     },
     {
-        "id": 16,
         "nom": "Bahre\u00efn",
-        "iso": "BH",
         "population": 1701575,
-        "superficie": 760,
         "continent": "Asie",
-        "capitale": "Manama",
-        "popu_cap": 157474,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Manama"
     },
     {
-        "id": 80,
         "nom": "Guin\u00e9e \u00e9quatoriale",
-        "iso": "GQ",
         "population": 1402985,
-        "superficie": 28051,
         "continent": "Afrique",
-        "capitale": "Malabo",
-        "popu_cap": 297,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Malabo"
     },
     {
-        "id": 219,
         "nom": "Trinit\u00e9-et-Tobago",
-        "iso": "TT",
         "population": 1399488,
-        "superficie": 5131,
         "continent": "Am\u00e9rique",
-        "capitale": "Port-d'Espagne",
-        "popu_cap": 49031,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Port-d'Espagne"
     },
     {
-        "id": 60,
         "nom": "Estonie",
-        "iso": "EE",
         "population": 1326535,
-        "superficie": 45227,
         "continent": "Europe",
-        "capitale": "Tallinn",
-        "popu_cap": 426538,
-        "altitude": 40,
-        "monnaie": ""
+        "capitale": "Tallinn"
     },
     {
-        "id": 215,
         "nom": "Timor oriental",
-        "iso": "TL",
         "population": 1318445,
-        "superficie": 14874,
         "continent": "Asie",
-        "capitale": "Dili",
-        "popu_cap": 234331,
-        "altitude": 10,
-        "monnaie": ""
+        "capitale": "Dili"
     },
     {
-        "id": 132,
         "nom": "Maurice",
-        "iso": "MU",
         "population": 1271768,
-        "superficie": 2040,
         "continent": "Afrique",
-        "capitale": "Port-Louis",
-        "popu_cap": 149194,
-        "altitude": 163,
-        "monnaie": ""
+        "capitale": "Port-Louis"
     },
     {
-        "id": 40,
         "nom": "Chypre",
-        "iso": "CY",
         "population": 1207359,
-        "superficie": 9251,
         "continent": "Europe",
-        "capitale": "Nicosie",
-        "popu_cap": 310355,
-        "altitude": 162,
-        "monnaie": ""
+        "capitale": "Nicosie"
     },
     {
-        "id": 61,
         "nom": "Eswatini",
-        "iso": "SZ",
         "population": 1160164,
-        "superficie": 17364,
         "continent": "Afrique",
-        "capitale": "Mbabane",
-        "popu_cap": 76218,
-        "altitude": 1124,
-        "monnaie": ""
+        "capitale": "Mbabane"
     },
     {
-        "id": 206,
         "nom": "Swaziland",
-        "iso": "SZ",
         "population": 1136281,
-        "superficie": 17364,
         "continent": "Afrique",
-        "capitale": "Lobamba",
-        "popu_cap": 11,
-        "altitude": 683,
-        "monnaie": ""
+        "capitale": "Lobamba"
     },
     {
-        "id": 53,
         "nom": "Djibouti",
-        "iso": "DJ",
         "population": 988000,
-        "superficie": 23200,
         "continent": "Afrique",
-        "capitale": "Djibouti",
-        "popu_cap": 475322,
-        "altitude": 14,
-        "monnaie": ""
+        "capitale": "Djibouti"
     },
     {
-        "id": 64,
         "nom": "Fidji",
-        "iso": "FJ",
         "population": 896444,
-        "superficie": 18274,
         "continent": "Oc\u00e9anie",
-        "capitale": "Suva",
-        "popu_cap": 88271,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Suva"
     },
     {
-        "id": 42,
         "nom": "Comores",
-        "iso": "KM",
         "population": 869601,
-        "superficie": 2235,
         "continent": "Afrique",
-        "capitale": "Moroni",
-        "popu_cap": 54,
-        "altitude": 20,
-        "monnaie": ""
+        "capitale": "Moroni"
     },
     {
-        "id": 81,
         "nom": "Guyana",
-        "iso": "GY",
         "population": 786552,
-        "superficie": 214969,
         "continent": "Am\u00e9rique",
-        "capitale": "Georgetown",
-        "popu_cap": 235017,
-        "altitude": 1,
-        "monnaie": ""
+        "capitale": "Georgetown"
     },
     {
-        "id": 24,
         "nom": "Bhoutan",
-        "iso": "BT",
         "population": 771608,
-        "superficie": 38394,
         "continent": "Asie",
-        "capitale": "Thimphou",
-        "popu_cap": 98676,
-        "altitude": 2320,
-        "monnaie": ""
+        "capitale": "Thimphou"
     },
     {
-        "id": 188,
         "nom": "Salomon, \u00celes",
-        "iso": "SB",
         "population": 686884,
-        "superficie": 28896,
         "continent": "Oc\u00e9anie",
-        "capitale": "Honiara",
-        "popu_cap": 84520,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Honiara"
     },
     {
-        "id": 93,
         "nom": "\u00celes Salomon",
-        "iso": "SB",
         "population": 686884,
-        "superficie": 28896,
         "continent": "Oc\u00e9anie",
-        "capitale": "Honiara",
-        "popu_cap": 84520,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Honiara"
     },
     {
-        "id": 122,
         "nom": "Luxembourg",
-        "iso": "LU",
         "population": 626108,
-        "superficie": 2586,
         "continent": "Europe",
-        "capitale": "Luxembourg",
-        "popu_cap": 115227,
-        "altitude": 263,
-        "monnaie": ""
+        "capitale": "Luxembourg"
     },
     {
-        "id": 140,
         "nom": "Mont\u00e9n\u00e9gro",
-        "iso": "ME",
         "population": 622359,
-        "superficie": 13812,
         "continent": "Europe",
-        "capitale": "Podgorica",
-        "popu_cap": 150977,
-        "altitude": 40,
-        "monnaie": ""
+        "capitale": "Podgorica"
     },
     {
-        "id": 180,
         "nom": "Sahara occidental",
-        "iso": "EH",
         "population": 597339,
-        "superficie": 266,
         "continent": "Afrique",
-        "capitale": "La\u00e2youne",
-        "popu_cap": 217732,
-        "altitude": 190,
-        "monnaie": ""
+        "capitale": "La\u00e2youne"
     },
     {
-        "id": 204,
         "nom": "Suriname",
-        "iso": "SR",
         "population": 591919,
-        "superficie": 163820,
         "continent": "Am\u00e9rique",
-        "capitale": "Paramaribo",
-        "popu_cap": 240924,
-        "altitude": 14,
-        "monnaie": ""
+        "capitale": "Paramaribo"
     },
     {
-        "id": 34,
         "nom": "Cabo Verde",
-        "iso": "CV",
         "population": 555987,
-        "superficie": 4033,
         "continent": "Afrique",
-        "capitale": "Praia",
-        "popu_cap": 130,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Praia"
     },
     {
-        "id": 127,
         "nom": "Maldives",
-        "iso": "MV",
         "population": 540542,
-        "superficie": 298,
         "continent": "Asie",
-        "capitale": "Mal\u00e9",
-        "popu_cap": 133412,
-        "altitude": 2,
-        "monnaie": ""
+        "capitale": "Mal\u00e9"
     },
     {
-        "id": 129,
         "nom": "Malte",
-        "iso": "MT",
         "population": 514564,
-        "superficie": 316,
         "continent": "Europe",
-        "capitale": "La Valette",
-        "popu_cap": 6444,
-        "altitude": 56,
-        "monnaie": ""
+        "capitale": "La Valette"
     },
     {
-        "id": 30,
         "nom": "Brunei",
-        "iso": "BN",
         "population": 459500,
-        "superficie": 5765,
         "continent": "Asie",
-        "capitale": "Bandar Seri Begawan",
-        "popu_cap": 50,
-        "altitude": 27,
-        "monnaie": ""
+        "capitale": "Bandar Seri Begawan"
     },
     {
-        "id": 21,
         "nom": "Belize",
-        "iso": "BZ",
         "population": 397621,
-        "superficie": 22966,
         "continent": "Am\u00e9rique",
-        "capitale": "Belmopan",
-        "popu_cap": 20,
-        "altitude": 76,
-        "monnaie": ""
+        "capitale": "Belmopan"
     },
     {
-        "id": 15,
         "nom": "Bahamas",
-        "iso": "BS",
         "population": 393244,
-        "superficie": 13880,
         "continent": "Am\u00e9rique",
-        "capitale": "Nassau",
-        "popu_cap": 274400,
-        "altitude": 3,
-        "monnaie": ""
+        "capitale": "Nassau"
     },
     {
-        "id": 131,
         "nom": "Martinique",
-        "iso": "MQ",
         "population": 375265,
-        "superficie": 1128,
         "continent": "Am\u00e9rique",
-        "capitale": "Fort-de-France",
-        "popu_cap": 86721,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Fort-de-France"
     },
     {
-        "id": 102,
         "nom": "Islande",
-        "iso": "IS",
         "population": 364260,
-        "superficie": 103,
         "continent": "Europe",
-        "capitale": "Reykjavik",
-        "popu_cap": 131136,
-        "altitude": 60,
-        "monnaie": ""
+        "capitale": "Reykjavik"
     },
     {
-        "id": 226,
         "nom": "Vanuatu",
-        "iso": "VU",
         "population": 307145,
-        "superficie": 12189,
         "continent": "Oc\u00e9anie",
-        "capitale": "Port-Vila",
-        "popu_cap": 44039,
-        "altitude": 59,
-        "monnaie": ""
+        "capitale": "Port-Vila"
     },
     {
-        "id": 152,
         "nom": "Nouvelle-Cal\u00e9donie",
-        "iso": "NC",
         "population": 295754,
-        "superficie": 18575,
         "continent": "Oc\u00e9anie",
-        "capitale": "Noum\u00e9a",
-        "popu_cap": 100237,
-        "altitude": 20,
-        "monnaie": ""
+        "capitale": "Noum\u00e9a"
     },
     {
-        "id": 18,
         "nom": "Barbade",
-        "iso": "BB",
         "population": 287375,
-        "superficie": 430,
         "continent": "Am\u00e9rique",
-        "capitale": "Bridgetown",
-        "popu_cap": 110,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Bridgetown"
     },
     {
-        "id": 168,
         "nom": "Polyn\u00e9sie fran\u00e7aise",
-        "iso": "PF",
         "population": 280908,
-        "superficie": 4167,
         "continent": "Oc\u00e9anie",
-        "capitale": "Papeete",
-        "popu_cap": 26357,
-        "altitude": 2,
-        "monnaie": ""
+        "capitale": "Papeete"
     },
     {
-        "id": 134,
         "nom": "Mayotte",
-        "iso": "YT",
         "population": 279471,
-        "superficie": 374,
         "continent": "Afrique",
-        "capitale": "Mamoudzou",
-        "popu_cap": 71437,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Mamoudzou"
     },
     {
-        "id": 190,
         "nom": "Sao Tom\u00e9-et-Principe",
-        "iso": "ST",
         "population": 219159,
-        "superficie": 1001,
         "continent": "Afrique",
-        "capitale": "Sao Tom\u00e9",
-        "popu_cap": 56166,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Sao Tom\u00e9"
     },
     {
-        "id": 189,
         "nom": "Samoa",
-        "iso": "WS",
         "population": 198410,
-        "superficie": 2831,
         "continent": "Oc\u00e9anie",
-        "capitale": "Apia",
-        "popu_cap": 36735,
-        "altitude": 2,
-        "monnaie": ""
+        "capitale": "Apia"
     },
     {
-        "id": 182,
         "nom": "Sainte-Lucie",
-        "iso": "LC",
         "population": 183627,
-        "superficie": 616,
         "continent": "Am\u00e9rique",
-        "capitale": "Castries",
-        "popu_cap": 20,
-        "altitude": 2,
-        "monnaie": ""
+        "capitale": "Castries"
     },
     {
-        "id": 75,
         "nom": "Guam",
-        "iso": "GU",
         "population": 168775,
-        "superficie": 541,
         "continent": "Oc\u00e9anie",
-        "capitale": "Hag\u00e5t\u00f1a",
-        "popu_cap": 1051,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Hag\u00e5t\u00f1a"
     },
     {
-        "id": 51,
         "nom": "Cura\u00e7ao",
-        "iso": "CW",
         "population": 164093,
-        "superficie": 444,
         "continent": "Am\u00e9rique",
-        "capitale": "Willemstad",
-        "popu_cap": 125,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Willemstad"
     },
     {
-        "id": 112,
         "nom": "Kiribati",
-        "iso": "KI",
         "population": 119449,
-        "superficie": 811,
         "continent": "Oc\u00e9anie",
-        "capitale": "Tarawa",
-        "popu_cap": 50182,
-        "altitude": 3,
-        "monnaie": ""
+        "capitale": "Tarawa"
     },
     {
-        "id": 136,
         "nom": "Micron\u00e9sie",
-        "iso": "FM",
         "population": 115023,
-        "superficie": 702,
         "continent": "Oc\u00e9anie",
-        "capitale": "Palikir",
-        "popu_cap": 6629,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Palikir"
     },
     {
-        "id": 73,
         "nom": "Grenade",
-        "iso": "GD",
         "population": 112003,
-        "superficie": 344,
         "continent": "Am\u00e9rique",
-        "capitale": "Saint George's",
-        "popu_cap": 7500,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Saint George's"
     },
     {
-        "id": 187,
         "nom": "Saint-Vincent-et-les-Grenadines",
-        "iso": "VC",
         "population": 110589,
-        "superficie": 389,
         "continent": "Am\u00e9rique",
-        "capitale": "Kingstown",
-        "popu_cap": 25,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Kingstown"
     },
     {
-        "id": 107,
         "nom": "Jersey",
-        "iso": "JE",
         "population": 107800,
-        "superficie": 116,
         "continent": "Europe",
-        "capitale": "Saint-H\u00e9lier",
-        "popu_cap": 33522,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Saint-H\u00e9lier"
     },
     {
-        "id": 218,
         "nom": "Tonga",
-        "iso": "TO",
         "population": 105695,
-        "superficie": 747,
         "continent": "Oc\u00e9anie",
-        "capitale": "Nuku'alofa",
-        "popu_cap": 23611,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Nuku'alofa"
     },
     {
-        "id": 96,
         "nom": "\u00celes Vierges des \u00c9tats-Unis",
-        "iso": "VI",
         "population": 104914,
-        "superficie": 352,
         "continent": "Am\u00e9rique",
-        "capitale": "Charlotte Amalie",
-        "popu_cap": 10,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Charlotte Amalie"
     },
     {
-        "id": 193,
         "nom": "Seychelles",
-        "iso": "SC",
         "population": 98347,
-        "superficie": 455,
         "continent": "Afrique",
-        "capitale": "Victoria",
-        "popu_cap": 25,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Victoria"
     },
     {
-        "id": 8,
         "nom": "Antigua-et-Barbuda",
-        "iso": "AG",
         "population": 97929,
-        "superficie": 442,
         "continent": "Am\u00e9rique",
-        "capitale": "Saint John's",
-        "popu_cap": 22193,
-        "altitude": 10,
-        "monnaie": ""
+        "capitale": "Saint John's"
     },
     {
-        "id": 86,
         "nom": "\u00cele de Man",
-        "iso": "IM",
         "population": 85410,
-        "superficie": 572,
         "continent": "Europe",
-        "capitale": "Douglas",
-        "popu_cap": 27938,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Douglas"
     },
     {
-        "id": 6,
         "nom": "Andorre",
-        "iso": "AD",
         "population": 77265,
-        "superficie": 468,
         "continent": "Europe",
-        "capitale": "Andorre-la-Vieille",
-        "popu_cap": 22256,
-        "altitude": 1023,
-        "monnaie": ""
+        "capitale": "Andorre-la-Vieille"
     },
     {
-        "id": 54,
         "nom": "Dominique",
-        "iso": "DM",
         "population": 71625,
-        "superficie": 751,
         "continent": "Am\u00e9rique",
-        "capitale": "Roseau",
-        "popu_cap": 16582,
-        "altitude": 72,
-        "monnaie": ""
+        "capitale": "Roseau"
     },
     {
-        "id": 77,
         "nom": "Guernesey",
-        "iso": "GG",
         "population": 67052,
-        "superficie": 78,
         "continent": "Europe",
-        "capitale": "Saint-Pierre-Port",
-        "popu_cap": 16488,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Saint-Pierre-Port"
     },
     {
-        "id": 87,
         "nom": "\u00celes Ca\u00efmans",
-        "iso": "KY",
         "population": 65722,
-        "superficie": 264,
         "continent": "Am\u00e9rique",
-        "capitale": "George Town",
-        "popu_cap": 31,
-        "altitude": 3,
-        "monnaie": ""
+        "capitale": "George Town"
     },
     {
-        "id": 23,
         "nom": "Bermudes",
-        "iso": "BM",
         "population": 62278,
-        "superficie": 54,
         "continent": "Am\u00e9rique",
-        "capitale": "Hamilton",
-        "popu_cap": 1010,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Hamilton"
     },
     {
-        "id": 91,
         "nom": "\u00celes Marshall",
-        "iso": "MH",
         "population": 59190,
-        "superficie": 181,
         "continent": "Oc\u00e9anie",
-        "capitale": "Majuro",
-        "popu_cap": 25400,
-        "altitude": 3,
-        "monnaie": ""
+        "capitale": "Majuro"
     },
     {
-        "id": 90,
         "nom": "\u00celes Mariannes du Nord",
-        "iso": "MP",
         "population": 57216,
-        "superficie": 464,
         "continent": "Oc\u00e9anie",
-        "capitale": "Saipan",
-        "popu_cap": 48220,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Saipan"
     },
     {
-        "id": 74,
         "nom": "Groenland",
-        "iso": "GL",
         "population": 56770,
-        "superficie": 2166086,
         "continent": "Am\u00e9rique",
-        "capitale": "Nuuk",
-        "popu_cap": 17984,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Nuuk"
     },
     {
-        "id": 181,
         "nom": "Saint-Christophe-et-Ni\u00e9v\u00e8s",
-        "iso": "KN",
         "population": 53199,
-        "superficie": 261,
         "continent": "Am\u00e9rique",
-        "capitale": "Basseterre",
-        "popu_cap": 13,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Basseterre"
     },
     {
-        "id": 89,
         "nom": "\u00celes F\u00e9ro\u00e9",
-        "iso": "FO",
         "population": 48863,
-        "superficie": 1393,
         "continent": "Europe",
-        "capitale": "T\u00f3rshavn",
-        "popu_cap": 13089,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "T\u00f3rshavn"
     },
     {
-        "id": 185,
         "nom": "Saint-Martin (Pays-Bas)",
-        "iso": "SX",
         "population": 42876,
-        "superficie": 34,
         "continent": "Am\u00e9rique",
-        "capitale": "Philipsburg",
-        "popu_cap": 1400,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Philipsburg"
     },
     {
-        "id": 138,
         "nom": "Monaco",
-        "iso": "MC",
         "population": 39242,
-        "superficie": 2,
         "continent": "Europe",
-        "capitale": "Monaco",
-        "popu_cap": 38300,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Monaco"
     },
     {
-        "id": 94,
         "nom": "\u00celes Turques-et-Ca\u00efques",
-        "iso": "TC",
         "population": 38191,
-        "superficie": 948,
         "continent": "Am\u00e9rique",
-        "capitale": "Cockburn Town",
-        "popu_cap": 3720,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Cockburn Town"
     },
     {
-        "id": 120,
         "nom": "Liechtenstein",
-        "iso": "LI",
         "population": 38128,
-        "superficie": 160,
         "continent": "Europe",
-        "capitale": "Vaduz",
-        "popu_cap": 5450,
-        "altitude": 460,
-        "monnaie": ""
+        "capitale": "Vaduz"
     },
     {
-        "id": 184,
         "nom": "Saint-Martin (France)",
-        "iso": "MF",
         "population": 34457,
-        "superficie": 53,
         "continent": "Am\u00e9rique",
-        "capitale": "Marigot",
-        "popu_cap": 5700,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Marigot"
     },
     {
-        "id": 183,
         "nom": "Saint-Marin",
-        "iso": "SM",
         "population": 33860,
-        "superficie": 61,
         "continent": "Europe",
-        "capitale": "Saint-Marin",
-        "popu_cap": 4,
-        "altitude": 749,
-        "monnaie": ""
+        "capitale": "Saint-Marin"
     },
     {
-        "id": 71,
         "nom": "Gibraltar",
-        "iso": "GI",
         "population": 33701,
-        "superficie": 6,
         "continent": "Europe",
-        "capitale": "Gibraltar",
-        "popu_cap": 33140,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Gibraltar"
     },
     {
-        "id": 95,
         "nom": "\u00celes Vierges britanniques",
-        "iso": "VG",
         "population": 30231,
-        "superficie": 151,
         "continent": "Am\u00e9rique",
-        "capitale": "Road Town",
-        "popu_cap": 8,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Road Town"
     },
     {
-        "id": 158,
         "nom": "Palaos",
-        "iso": "PW",
         "population": 18094,
-        "superficie": 459,
         "continent": "Oc\u00e9anie",
-        "capitale": "Melekeok",
-        "popu_cap": 391,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Melekeok"
     },
     {
-        "id": 88,
         "nom": "\u00celes Cook",
-        "iso": "CK",
         "population": 17564,
-        "superficie": 236,
         "continent": "Oc\u00e9anie",
-        "capitale": "Avarua",
-        "popu_cap": 5445,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Avarua"
     },
     {
-        "id": 223,
         "nom": "Tuvalu",
-        "iso": "TV",
         "population": 11931,
-        "superficie": 26,
         "continent": "Oc\u00e9anie",
-        "capitale": "Funafuti",
-        "popu_cap": 4492,
-        "altitude": 2,
-        "monnaie": ""
+        "capitale": "Funafuti"
     },
     {
-        "id": 230,
         "nom": "Wallis-et-Futuna",
-        "iso": "WF",
         "population": 11558,
-        "superficie": 142,
         "continent": "Oc\u00e9anie",
-        "capitale": "Mata-Utu",
-        "popu_cap": 1200,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Mata-Utu"
     },
     {
-        "id": 144,
         "nom": "Nauru",
-        "iso": "NR",
         "population": 10824,
-        "superficie": 21,
         "continent": "Oc\u00e9anie",
-        "capitale": "Yaren",
-        "popu_cap": 1100,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Yaren"
     },
     {
-        "id": 186,
         "nom": "Saint-Pierre-et-Miquelon",
-        "iso": "PM",
         "population": 5794,
-        "superficie": 242,
         "continent": "Am\u00e9rique",
-        "capitale": "Saint-Pierre",
-        "popu_cap": 5500,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Saint-Pierre"
     },
     {
-        "id": 141,
         "nom": "Montserrat",
-        "iso": "MS",
         "population": 4992,
-        "superficie": 102,
         "continent": "Am\u00e9rique",
-        "capitale": "Plymouth",
-        "popu_cap": 4,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Plymouth"
     },
     {
-        "id": 205,
         "nom": "Svalbard et Jan Mayen",
-        "iso": "SJ",
         "population": 2667,
-        "superficie": 61399,
         "continent": "Europe",
-        "capitale": "Longyearbyen",
-        "popu_cap": 2144,
-        "altitude": 28,
-        "monnaie": ""
+        "capitale": "Longyearbyen"
     },
     {
-        "id": 150,
         "nom": "Norfolk",
-        "iso": "NF",
         "population": 2302,
-        "superficie": 36,
         "continent": "Oc\u00e9anie",
-        "capitale": "Kingston",
-        "popu_cap": 800,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Kingston"
     },
     {
-        "id": 85,
         "nom": "\u00cele Christmas",
-        "iso": "CX",
         "population": 1843,
-        "superficie": 135,
         "continent": "Oc\u00e9anie",
-        "capitale": "Flying Fish Cove",
-        "popu_cap": 500,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Flying Fish Cove"
     },
     {
-        "id": 149,
         "nom": "Niu\u00e9",
-        "iso": "NU",
         "population": 1624,
-        "superficie": 260,
         "continent": "Oc\u00e9anie",
-        "capitale": "Alofi",
-        "popu_cap": 624,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Alofi"
     },
     {
-        "id": 217,
         "nom": "Tokelau",
-        "iso": "TK",
         "population": 1357,
-        "superficie": 12,
         "continent": "Oc\u00e9anie",
-        "capitale": "Fakaofo",
-        "popu_cap": 483,
-        "altitude": 5,
-        "monnaie": ""
+        "capitale": "Fakaofo"
     },
     {
-        "id": 227,
         "nom": "Vatican",
-        "iso": "VA",
         "population": 799,
-        "superficie": 0,
         "continent": "Europe",
-        "capitale": "Vatican",
-        "popu_cap": 800,
-        "altitude": 75,
-        "monnaie": ""
+        "capitale": "Vatican"
     },
     {
-        "id": 166,
         "nom": "Pitcairn",
-        "iso": "PN",
         "population": 47,
-        "superficie": 47,
         "continent": "Oc\u00e9anie",
-        "capitale": "Adamstown",
-        "popu_cap": 56,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Adamstown"
     },
     {
-        "id": 92,
         "nom": "\u00celes Pitcairn",
-        "iso": "PN",
         "population": 47,
-        "superficie": 47,
         "continent": "Oc\u00e9anie",
-        "capitale": "Adamstown",
-        "popu_cap": 56,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Adamstown"
     },
     {
-        "id": 213,
         "nom": "Terres australes et antarctiques fran\u00e7aises",
-        "iso": "TF",
         "population": 0,
-        "superficie": 439781,
         "continent": "Antarctique",
-        "capitale": "Saint-Pierre",
-        "popu_cap": 0,
-        "altitude": 0,
-        "monnaie": ""
+        "capitale": "Saint-Pierre"
     }
 ]

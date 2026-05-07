@@ -68,6 +68,65 @@ $connectDB = null;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livre d'or</title>
+    <style>
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+ 
+body{
+    margin: 0;
+    background: #f2f4f8;
+    text-align: center;
+    padding-top: 50px;
+    color: #333;
+}
+ 
+form{
+    margin: 20px auto;
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+}
+ 
+input, textarea{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+    margin-bottom: 10px;
+    &:focus{
+        border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74,144,226,0.3);
+    }
+}
+ 
+textarea{
+    height: 80px;
+    resize: none;
+}
+ 
+input[type="submit"]{
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5px;
+    transition: 0.3s;
+    &:hover{
+        background-color: #357bd8;
+    }
+}
+ 
+</style>
+ 
 
 </head>
 

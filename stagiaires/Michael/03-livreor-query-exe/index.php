@@ -30,6 +30,8 @@ if(isset($_POST['email_message'],$_POST['texte_message'])){
     # En entité html
     $text = htmlspecialchars($text);
 
+    // $text = htmlspecialchars(trim(strip_tags($_POST['texte_message'])));
+
     #echo nl2br($text);
 
 
