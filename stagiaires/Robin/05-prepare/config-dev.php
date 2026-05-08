@@ -16,4 +16,4 @@ const DB_CONNECT_PWD = ""; // pas de mot de passe par défaut
 const DB_DSN = DB_CONNECT_TYPE.":host=".DB_CONNECT_HOST.";dbname=".DB_CONNECT_NAME.";port=".DB_CONNECT_PORT.";charset=".DB_CONNECT_CHARSET;
 
 // Chemin vers la racine du projet 
-const ROOT_PROJECT = __DIR__;
+const PROJECT_PATH = __DIR__;

@@ -14,9 +14,37 @@
         </header>
 
         <main>
+            <?php
+                /* on a tenté d'envoyer le formulaire et
+                il a passé les protection frontend */
+                if (isset($insert)):
+                // échec de l'insertion
+                if($insert=== false):
+                ?>
+                <div class="not-insert-message">
+                    Échec lors de l'insertion <a href="javascript:history.go(-1);">Vérifiez votre formulaire</a>
+                </div>
+                <?php
+                // réussite de l'insertion
+                else:
+                ?>
+                <div class="insert-message">
+                   Merci pour votre message, vous allez être redirigé
+                   <script>
+                    setTimeout(
+                        function() {
+                            window.location.href ="./";
+                        }, 2500
+                    )
+                   </script>
+                </div>
+                <?php
+                     endif;
+                endif;
+                ?>
             <!-- Formulaire d'ajout -->
             <section class="form-section">
-                <form id="guestbook-form">
+                <form id="guestbook-form" method="POST">
                     <div class="form-group">
                         <label for="email_message">Votre email</label>
                         <input type="text" id="email_message" name="email_message" placeholder="Ex: JeanDupont@cf2.be">
@@ -24,7 +52,7 @@
                     
                     <div class="form-group">
                         <label for="texte_message">Votre message</label>
-                        <textarea id="texte_message" name="texte_message" rows="4" placeholder="Ce que vous avez pensé de votre visite..." required></textarea>
+                        <textarea id="texte_message" name="texte_message" rows="4" placeholder="Ce que vous avez pensé de votre visite..."></textarea>
                     </div>
                     
                     <button type="submit" class="submit-btn">Publier le message</button>
@@ -33,11 +61,31 @@
 
             <!-- Liste des messages -->
             <section class="messages-section">
-                <h2>Messages récents</h2>
-                <div id="messages-container">
+                <?php
+                // On compte le nb de message
+                $nbMessage = count($messages);
+                    // Pas de message
+                    if(empty($messages)):
+                ?>
+                <h2>Il n'y a pas encore de message</h2>
+                <?php
+                    else:
+                        // préparation du pluriel si on a plus d'un message
+                    $pluriel = $nbMessage > 1 ? "s" : "";
+                ?>
+                <h2>Message<?=  $pluriel ?> récent<?= $pluriel ?> (<?=  $nbMessage ?>)</h2>
+               <?php
+                    foreach($messages as $message):
+               ?>
+                <div class="message-card">
                     <!-- Les messages apparaîtront ici -->
-                     <?= $messages ?>
+                     <h3>Ecrit par <?= htmlspecialchars($message['email_message'])?> le <?= $message['date_message']?></h3>
+                     <p><?= nl2br(htmlspecialchars($message['texte_message']))?></p>
                 </div>
+                <?php
+                    endforeach;
+                endif;
+                ?>
             </section>
         </main>
     </div>
