@@ -12,12 +12,14 @@
     - `view` dossier qui contiendra les templates de vue (attention, ça reste du backend ! Même si ça contient principalement de l'HTML)
     - `controller` dossier qui contient les contrôleurs, ceux-ci font le lien entre les données (`model`) et les vues (`view`), ils gèrent les entrées et sorties vers les utilisateurs
 - création de `config-dev.php` et `config.php` à la racine du projet
-- importez de la base de donnée en `MariaDB` depuis `05-exercice/data/exe_05.sql`
+- importez la base de donnée en `MariaDB` depuis `05-exercice/data/exe_05.sql`
 - Mettez `config-dev.php` à jour avec les paramètres pour vous connecter.
 - Suivez la liste des fichiers à utiliser pour créer votre site. Le point de départ est le contrôleur frontal `public/index.php`
 - Créez un hôte virtuel vers votre `stagiaires/`VotrePrénom`/05-exercice/public` et nommez le **exercice-5**
 
 ### Création du site
+
+Il y aura 3 pages : Accueil  - Commentaires - Ajouter un commentaire
 
 #### Accueil
 
@@ -55,4 +57,12 @@ Suivez les règles suivant les champs en PHP (! XSS) :
 email -> valide, ne dépasse pas 120 caractères
 full_name -> 5 caractères minimum, 120 maximum
 title -> 5 carctères minimum, 180 maximum
-text_comment -> 5 cractères minimum, 1000 maximum
+text_comment -> 5 caractères minimum, 1000 maximum
+
+En cas de succès, redirigez vers **Commentaires**
+
+Dès que c'est fonctionnel rajoutez le protections frontend en js et le menu hamburger en utilisant **jquery**
+
+### Bonus
+
+Créez une pagination fonctionnelle sur la page **Commentaires**
