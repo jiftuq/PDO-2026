@@ -26,7 +26,7 @@ function insertLivre(PDO $con, array $datas): bool
 
     // on va préparer notre requête avec des marqueurs nommés (:nom)
     $sql = "INSERT INTO `livre` 
-            (`email`,`title`,`text`) 
+            (`email`,`title`,`texte`) 
             VALUES (:mail,:titre,:dutexte);";
     // attente des valeurs de marqueurs        
     $prepare = $con->prepare($sql);    
@@ -44,8 +44,15 @@ function insertLivre(PDO $con, array $datas): bool
 
 function readLivres(PDO $con): array
 {
-    $sql = "SELECT * FROM `livre` ORDER BY `datetime` DESC;";
-    $prepare = $con->prepare($sql);
-    $prepare->execute();
-    return $prepare->fetchAll(PDO::FETCH_ASSOC);
+    // on va récupérer tous les messages
+    $sql = "SELECT * FROM `livre` ORDER BY `datetime` ASC";
+    $request = $con->query($sql);
+
+    // transformation du ou des résultat en tableau indexé contenant des tableaux associatifs
+    $articles = $request->fetchAll(PDO::FETCH_ASSOC);
+
+    // bonne pratique
+    $request->closeCursor();
+
+    return $articles ?: [];
 }

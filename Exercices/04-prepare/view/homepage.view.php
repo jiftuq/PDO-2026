@@ -50,17 +50,27 @@
         </div>
         <?php  var_dump($_POST); ?>
 
-            <div class="message"><?= $livres ?></div>
-            <div class="comments">Nombre de commentaires : on affiche le nombre de commentaire avec | Pas encore de commentaire | Il y a 1 commentaire | Il y a x commentaires
-    </div>
-    <div class="comments-list">
-            <div class="commentaires-utilisateur">
-                On fait une boucle tant u'on a des commentaires
-                <h3></h3>
-                <p></p>
-                <p></p>
+            <div class="comments">
+                <?php
+                $nb = count($livres);
+                if ($nb === 0):
+                ?>
+                    <h2>Pas encore de commentaire</h2>
+                <?php elseif ($nb === 1): ?>
+                    <h2>Il y a 1 commentaire</h2>
+                <?php else: ?>
+                    <h2>Il y a <?= $nb ?> commentaires</h2>
+                <?php endif; ?>
             </div>
-    </div>
+            <div class="comments-list">
+                <?php foreach ($livres as $livre): ?>
+                <div class="commentaires-utilisateur">
+                    <h2><?= htmlspecialchars($livre['title']) ?></h2>
+                    <p><?= htmlspecialchars($livre['email']) ?></p>
+                    <p><?= htmlspecialchars($livre['text']) ?></p>
+                </div>
+                <?php endforeach; ?>
+            </div>
 </body>
 
 </html>
