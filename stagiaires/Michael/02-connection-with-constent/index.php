@@ -21,7 +21,7 @@ try{
                     ";charset=".DB_CONNECT_CHARSET . ";"
         ,
         username:   DB_CONNECT_USER,
-        password:   "",
+        password:   DB_CONNECT_PWD,
         );
 
 // en cas d'erreur (équivalent $e = new PDOException)
@@ -44,8 +44,13 @@ $sql = "
 // véritable requête
 $request = $db->query($sql);
 
+// on compte le nombre de ligne de résultats SQL
+$count = $request->rowCount();
+
 // on récupère les données dans un format lisible par PHP
 $resultats = $request->fetchAll(PDO::FETCH_ASSOC);
+
+
 
 // bonne pratique
 // pas utile pour MariaDB ou MySQL
@@ -55,6 +60,10 @@ $request->closeCursor();
 // pas utile pour MariaDB ou MySQL
 // sauf si requête premanente 
 $db = null;
+
+/* compte le nombre de ligne du tableau de résultat
+$count = count($resultats);
+*/
 
 /*
 // transformation en json
@@ -80,7 +89,7 @@ fclose($file);
     <title>Les pays du monde</title>
 </head>
 <body>
-    <h1>Les pays du monde</h1>
+    <h1>Les pays du monde (<?= $count ?>)</h1>
      <table>
         <thead>
             <tr>

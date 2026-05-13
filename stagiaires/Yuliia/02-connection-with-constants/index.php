@@ -37,6 +37,7 @@ FROM `countries` c
 ORDER BY  c.`population` DESC;
 ";
 $request=$db->query($sql);
+$count=$request->rowCount();
 $results=$request->fetchAll(PDO::FETCH_ASSOC);
 
 // $json=json_encode($results,JSON_PRETTY_PRINT);
@@ -49,6 +50,7 @@ $results=$request->fetchAll(PDO::FETCH_ASSOC);
 $request->closeCursor();
 $db=null;
 // fclose($file);
+//$count=count($results);
 
 var_dump($db,$request,$results);
 ?>
@@ -60,7 +62,7 @@ var_dump($db,$request,$results);
     <title>Les pays du monde</title>
 </head>
 <body>
-    <h1>Les pays du monde :</h1>
+    <h1>Les pays du monde : <?=  ($count) ?> </h1>
     <table>
         <thead>
             <tr>

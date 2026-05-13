@@ -23,7 +23,8 @@ $request = $connectionDB->query(
 var_dump($connectionDB,$request);  
 
 // Mauvaise pratique recommandée par toutes les IA
-// (ingérable en OO), mais vide la mémoire donc 
+// (ingérable en OO), sauf sites avec des données énormes
+// mais vide la mémoire donc 
 // plus rapide, affiche les résultats ligne par ligne
 while($item = $request->fetch(PDO::FETCH_ASSOC)){
     // affichage de tous les pays

@@ -47,10 +47,18 @@ $resultats = $request->fetchAll(PDO::FETCH_ASSOC);
 // Pas utile pour SQL ou MariaDB
 $request->closeCursor();
 
+// On compte le nombre de ligne résultat SQL
+$count = $request->rowCount();
+
 //Bonne pratique
 // Pas utile pour SQL ou MariaDB
 // sauf si requête prermanente
 $db = null;
+
+
+/* Compte sur un tableau
+$count = count($resultats);
+*/
 
 /*
 // Transformation en json
@@ -74,7 +82,7 @@ var_dump($db, $request, $resultats);
     <title>Les pays du monde</title>    
 </head>
 <body>
-    <h1>Les pays du monde</h1>
+    <h1>Les pays du monde (<?= $count?>)</h1>
     <table>
         <thead>
             <tr>
