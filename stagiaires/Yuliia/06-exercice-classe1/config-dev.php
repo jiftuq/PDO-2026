@@ -18,3 +18,8 @@ const ROOT_PROJECT = __DIR__;
 
 // pour la pagination
 const NB_BY_PAGGE = 5;
+
+const ARRAY_VALID_PAGES=[
+'comments',
+'addComment',
+];

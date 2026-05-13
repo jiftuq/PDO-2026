@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Page d'accueil</h1>
+    <h1>Page add comment</h1>
     <nav>
         <?php
         include ROOT_PROJECT . "/view/inc/header.php";

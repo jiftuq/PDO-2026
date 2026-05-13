@@ -6,4 +6,15 @@
 # Création de notre connexion PDO (avec try catch)
 
 # suivant les actions utilisateur, appelez les vues.
-require ROOT_PROJECT."/view/homepage.html.php";
+
+if (!isset($_GET['p'])){
+    // nous sommes dans l'accueil
+    include ROOT_PROJECT."/view/homepage.html.php";
+
+}elseif(in_array($_GET['p'],ARRAY_VALID_PAGES)){
+
+     include ROOT_PROJECT."/view/".$_GET['p'].".php";
+}else {
+     
+    //  include ROOT_PROJECT."/view/error404.php";
+}

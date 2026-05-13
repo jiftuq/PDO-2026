@@ -6,3 +6,4 @@ require_once "../config-dev.php";
 
 # Importation du router : ROOT_PROJECT."/controller/routerController.php"
 require ROOT_PROJECT."/controller/routerController.php";
+
