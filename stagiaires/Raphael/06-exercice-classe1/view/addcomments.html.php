@@ -19,7 +19,7 @@
 </header>
 
 <main>
-    <form class="form-card" method="POST" action="">
+    <form id="commentForm" class="form-card" method="POST" action="" novalidate>
         <h2>Votre avis sur ma passion</h2>
 
         <div class="form-group">
@@ -31,6 +31,7 @@
                 maxlength="120"
                 required
             >
+            <small class="field-error" id="emailError"></small>
         </div>
 
         <div class="form-group">
@@ -43,6 +44,7 @@
                 maxlength="120"
                 required
             >
+            <small class="field-error" id="fullNameError"></small>
         </div>
 
         <div class="form-group">
@@ -55,6 +57,7 @@
                 maxlength="180"
                 required
             >
+            <small class="field-error" id="titleError"></small>
         </div>
 
         <div class="form-group">
@@ -66,11 +69,14 @@
                 maxlength="1000"
                 required
             ></textarea>
+            <small class="field-error" id="textCommentError"></small>
         </div>
 
         <button type="submit">Envoyer le commentaire</button>
     </form>
 </main>
 
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/validation.js"></script>
 </body>
 </html>
