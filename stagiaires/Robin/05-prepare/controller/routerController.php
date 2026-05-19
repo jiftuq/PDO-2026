@@ -2,7 +2,7 @@
 # Stagiaires/robin/05-prepare/controller/routerController.php
 
 // Chargement des dépendances 
-require ROOT_PROJECT."/model/MessageModel.php";
+require PROJECT_PATH."/model/MessageModel.php";
 
 // Connexion à notre base de donnée
 try{
@@ -12,11 +12,18 @@ try{
     die($e->getMessage());
 }
 
+// On a envoyé le formulaire
+if(isset($_POST['email_message'],$_POST['texte_message'])){
+    // envoie de nos variables nécessaires à l'insertion
+    $insert = insertMessage($connectDB,$_POST['email_message'],$_POST['texte_message']);
+}
+
+
 // Récupération de tous les messages (fake)
-$messages = selectAllMessage();
+$messages = selectAllMessage($connectDB);
 
 // Bonne pratique, fermeture de connexion
 $connectDB = null;
 
 // Appel de la vue
-include ROOT_PROJECT."/view/homepage.html.php";
+include PROJECT_PATH."/view/homepage.html.php";

@@ -102,6 +102,19 @@ textarea:focus {
     font-size: 1.5rem;
 }
 
+.not-insert-message {
+    background-color: rgb(128, 0, 0);
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+
+.insert-message {
+    background-color: green;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
 .message-card {
     background-color: var(--card-bg);
     padding: 1.5rem;

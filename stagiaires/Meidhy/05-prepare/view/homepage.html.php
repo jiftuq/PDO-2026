@@ -15,9 +15,35 @@
         </header>
 
         <main>
+<?php
+/* on a tenté d'envoyer le formulaire et 
+il a passé les protection frontend */
+if (isset($insert)):
+    // échec de l'insertion 
+    if($insert=== false):
+?>
+<div class="insert_message2">Echec lors de l'insertion 
+    <a href="javascript:history.go(-1);"></a>
+</div>
+    
+<?php
+// réussite de l'insertion 
+else: 
+    ?>
+<div class="insert_message">Merci pour votre message, vous allez être redirigé</div>
+ <script> setTimeout(
+        function(){
+            windows.location.href ="./"
+    }, 2000
+    );
+    </script>
+<?php
+    endif; 
+endif;
+?>
             <!-- Formulaire d'ajout -->
             <section class="form-section">
-                <form id="guestbook-form">
+                <form id="guestbook-form" method="POST">
                     <div class="form-group">
                         <label for="email_message">Votre email</label>
                         <input type="text" id="email_message" name="email_message" placeholder="Ex: JeanMouloud@cf2m.be" required>
@@ -34,14 +60,30 @@
 
             <!-- Liste des messages -->
             <section class="messages-section">
-                <h2>Messages récents</h2>
+                <?php
+                // on compte le nombre de message
+                $nbMessage = count($messages); 
+                    // Pas de message
+                    if(empty($nbMessage)): 
+                ?>
+                <h2>Il n'y a pas encore de message</h2>
+                <?php
+                // il y a au moins un message 
+                else: 
+                    // préparation du pluriel si on a plus d'un message 
+                    $pluriel = $nbMessage> 1 ? "s": ""; 
+                ?>
+
+                <h2>Message<?= $pluriel ?> récent<?= $pluriel ?>, (<?= $nbMessage?>)</h2>
                 <div id="messages-container">
-                    <!-- Les messages apparaîtront ici -->
-                     <?= $messages ?>
+                <?php foreach ($messages as $message): ?>
+                 <h3>Ecrit par <?= htmlspecialchars($message['email_message']) ?> 
+                 le <?= $message['date_message'] ?></h3>
+                <p><?= $message['texte_message'] ?></p>
+                <?php endforeach; endif; ?>
                 </div>
+                
             </section>
         </main>
-    </div>
-
 </body>
 </html>
