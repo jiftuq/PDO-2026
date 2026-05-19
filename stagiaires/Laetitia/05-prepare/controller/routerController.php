@@ -12,8 +12,14 @@ try{
     die($e->getMessage());
 }
 
+// On a envoyé le formulaire
+if(isset($_POST['email_message'], $_POST['texte_message'])){
+    // Envoi de nos variables nécessaires à l'insertion
+    $insert = insertMessage($connectDB, $_POST['email_message'], $_POST['texte_message']);
+}
+
 // Récupération de tous les messages
-$messages = selectAllMessage();
+$messages = selectAllMessage($connectDB);
 
 // Bonne pratique, fermeture de connexion
 $connectDB = null;

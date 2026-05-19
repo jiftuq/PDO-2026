@@ -14,9 +14,35 @@
         </header>
 
         <main>
+            <?php
+            // on a tenté d'envoyé le formulair et
+            // il a passé les proctections frontend
+            if(isset($insert)):
+                // échec de l'insertion
+                if($insert===false):
+                ?>
+                <div class="not-insert-message">
+                    échec lors de l'insertion <a href="javascript:history.go(-1);">Vérifiez votre formulaire</a>
+                </div>
+                <?php
+                // réussite de l'insertion
+                else:
+                ?>
+                <div class="insert-message">
+                    Merci pour votre message vous aller être redirigé
+                    <script>setTimeout(
+                        function(){
+                            window.location.href="./";
+                        },10000
+                    )</script>
+                </div>
+                <?php
+                endif;
+            endif;
+            ?>
             <!-- Formulaire d'ajout -->
             <section class="form-section">
-                <form id="guestbook-form">
+                <form id="guestbook-form" method="POST">
                     <div class="form-group">
                         <label for="email_message">Votre email</label>
                         <input type="text" id="email_message" name="email_message" placeholder="Ex: JeanDupont@cf2m.be">
@@ -33,11 +59,35 @@
 
             <!-- Liste des messages -->
             <section class="messages-section">
-                <h2>Messages récents</h2>
-                <div id="messages-container">
+                <?php
+                // on compte le nombre de message
+                $nbMessage = count($messages);
+                    // pas de message
+                    if(empty($messages)):
+                ?>
+                <h2>Il n'y a pas encore de message</h2>
+                <?php
+                // il y a aumoins un message
+                else:
+                    // préparation du pluriel si on a plus d'un message
+                    $pluriel = $nbMessage > 1 ? "s" :"";
+                ?>
+
+
+                <h2>Message<?=$pluriel?> récent<?=$pluriel?> (<?=$nbMessage?>)</h2>
+                <?php
+                    foreach($messages as $message):
+                ?>
+                <div class="message-card">
                     <!-- Les messages apparaîtront ici -->
-                     <?= $messages ?>
+                     <h3>Écris par <?= htmlspecialchars($message['email_message'])?> le <?= $message['date_message']?></h3>
+                     <p><?= htmlspecialchars($message['texte_message'])?></p>
+
                 </div>
+                <?php
+                    endforeach;
+                endif;
+                ?>
             </section>
         </main>
     </div>

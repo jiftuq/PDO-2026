@@ -6,7 +6,7 @@
 require_once '../config-dev.php';
 
 // Appel de notre router
-require_once ROOT_PROJECT."/controller/routerController.php";
+require_once PROJECT_PATH."/controller/routerController.php";
 
 
 

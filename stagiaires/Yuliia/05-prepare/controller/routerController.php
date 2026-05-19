@@ -9,8 +9,16 @@ try {
     // arrêt et affichage de l'erreur (ev dev)
     die($e->getMessage());
 }
+
+
+// on a envoyé le formulaire 
+if(isset($_POST['email_message'],$_POST['texte_message'])){
+    // envoi de nos var nécessaires à l'insertion 
+    $insertMessage=insertMassage($connectDB,$_POST['email_message'],$_POST['texte_message']);
+}
+
 // recuperation de tous les messages (fake)
-$messages=selectAllMessages().
+$messages=selectAllMessages($connectDB);
 
 // bonne pratique, fermeture de connexion
 $connectDB=null;
