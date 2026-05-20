@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#16a085"/>
+  <path d="M150 460 C250 320 550 320 650 460 L650 520 C550 380 250 380 150 520 Z" fill="#ecf0f1"/>
+  <text x="400" y="340" font-family="Arial, Helvetica, sans-serif" font-size="42" fill="#16a085" text-anchor="middle">Photo 3</text>
+</svg>
