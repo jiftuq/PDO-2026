@@ -36,27 +36,45 @@
 <div class="gallery">
             <div class="card">
             <div class="img_label">
-            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" >
+            <img src="https://www.timberbush-tours.co.uk/sites/default/files/2025-06/Quiraing%20%281%29%20%282%29.jpg" alt="" >
     <span>TOP TOUR</span>  </div>
-    <a class="add_comment_link" href="?p=addComment">Ajoutre un commentaire</a>
+    <div class="card_body">
+        <p class="card_title">The Quaring</p>
+        <p class="card_desc">Embark on a true Scottish adventure with our 3-day tour small group tour to Skye from Edinburgh. Journey through the magnificent Scottish Highlands, before arriving on the mystical Isle of Skye. Enjoy a full day exploring the island's most beautiful spots, before travelling back down to Edinburgh via the most photographed castle in Scotland, Eilean Donan.</p>
+    
+            <a class="add_comment_link" href="?p=addComment">Ajouter</a>
+        
+    </div>
       
         </div>
     <div class="card">
             <div class="img_label">
-            <img src="https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=1734&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img src="https://www.timberbush-tours.co.uk/sites/default/files/2025-05/Fort%20William.jpeg" alt="">
             <span>TOP TOUR</span>  
           </div>
-          <a class="add_comment_link" href="?p=addComment">Ajoutre un commentaire</a>
+          <div class="card_body">
+        <p class="card_title">Fort William and Ben Nevis</p>
+        <p class="card_desc">Our 1-day Loch Ness day trip from Edinburgh takes in some of the most spectacular scenery Scotland has to offer. This coach tour visits beautiful Loch Ness, haunting Glencoe, and has options for a relaxing boat cruise across Loch Ness.</p>
+       
+            <a class="add_comment_link" href="?p=addComment">Ajouter</a>
+       
+    </div>
         </div>
         <div class="card">
             <div class="img_label">
-            <img src="https://images.unsplash.com/photo-1601888908963-5e32087f25f7?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img src="https://www.timberbush-tours.co.uk/sites/default/files/2025-06/Glenfinnan%20monument%203%20-%20Christie_0.jpeg" alt="">
             <span>TOP TOUR</span>  
         </div>
-        <a class="add_comment_link" href="?p=addComment">Ajoutre un commentaire</a>
-        </div>
+        <div class="card_body">
+        <p class="card_title">Glenfinnan Monument</p>
+        <p class="card_desc">Experience the majesty of the Scottish Highlands on this one-day tour from Edinburgh. Travelling north, immerse yourself in haunting Glencoe, before visiting the famous Glenfinnan Viaduct.</p>
+      
+            <a class="add_comment_link" href="?p=addComment">Ajouter</a>
+      
+    </div>
     </div>
     <script src="js/script.js"></script>
 </body>
 
 </html>
+

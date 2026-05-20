@@ -38,9 +38,11 @@ $stmt->closeCursor();
  return $result;
 }
 
-function countAllCommentaires(){
+function countAllCommentaires(PDO $db): int{
     
-}
+        $stmt = $db->query("SELECT COUNT(*) FROM commentaire");
+        return (int) $stmt->fetchColumn();
+    }
 
 // bonus pagination
 

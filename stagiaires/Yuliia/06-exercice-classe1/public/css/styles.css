@@ -211,7 +211,6 @@ p {
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 8px;
     padding-bottom: 15px;
     border-radius: 12px;
@@ -220,12 +219,20 @@ p {
 }
 
 .add_comment_link {
+    align-self: center;
+    width: 80%;
     text-decoration: none;
     padding: 6px;
     background-color: var(--link);
-    border-radius: 5px;
+    border-radius: 7px;
     color: var(--card-bg);
     font-size: 16px;
+    display: inline-block;
+    margin-top: 14px;
+    transition: background-color 0.2s ease;
+}
+.add_comment_link:hover {
+    background-color: var(--btn_color_hover);
 }
 
 .gallery {
@@ -246,20 +253,41 @@ p {
 
 .img_label {
     position: relative;
-    overflow: hidden;
 }
 
 .img_label span {
     position: absolute;
-    bottom: 25px;
-    right: -28px;
+    top: 12px;
+    left: 12px;
     background-color: var(--logo_letter);
-    padding: 3px;
-    transform: rotate(-42deg);
-    width: 145px;
-    text-align: center;
-}
+    color: #4a3000;
+    font-size: 15px;
+    padding: 4px 10px;
+    border-radius: 15px;
+    letter-spacing: 0.04em;
 
+}
+.card_body{
+    display: flex;      
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+.card_title{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--link);
+}
+.card_desc{
+    text-align: justify;
+    padding: 10px;
+    font-style: normal;
+    margin: 0;
+    flex: 1;
+}
+.card_title{
+    margin: 0;
+}
 /* ---- FORM ---- */
 .section_wrapper {
     min-height: 100%;
@@ -407,3 +435,6 @@ label {
 @media (min-width: 481px) and (max-width: 768px) {
 
 }
+
+
+
