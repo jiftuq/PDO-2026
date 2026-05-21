@@ -5,7 +5,7 @@
 // son le nom de config.php
 const DB_CONNECT_TYPE = "mysql";
 const DB_CONNECT_HOST = "localhost";
-const DB_CONNECT_PORT = 3306;
+const DB_CONNECT_PORT = 3307;
 const DB_CONNECT_NAME = "exe_06";
 const DB_CONNECT_CHARSET = "utf8mb4";
 const DB_CONNECT_USER = "root";
