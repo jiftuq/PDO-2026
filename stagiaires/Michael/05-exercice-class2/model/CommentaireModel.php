@@ -70,8 +70,12 @@ function countCommentaires(PDO $db): int
 // chargement des commentaires de la page
 function readPageCommentaires(PDO $db, int $offset=0, int $limit=5): array
 {
-    // requête
-    $stmt = $db->query("SELECT * FROM `commentaire` ORDER BY `post_date` DESC");
+    // requête prépare
+    $stmt = $db->prepare("SELECT * FROM `commentaire` ORDER BY `post_date` DESC LIMIT :offset, :limit;");
+    // utilisation obligatoire de bindParam ou bindValue
+    $stmt->bindValue(":offset",$offset,PDO::PARAM_INT);
+    $stmt->bindValue(":limit",$limit,PDO::PARAM_INT);
+    $stmt->execute();
     // recupération des resultats en fetch_assoc (voir connexion)
     $result = $stmt->fetchAll();
     // bonne pratique

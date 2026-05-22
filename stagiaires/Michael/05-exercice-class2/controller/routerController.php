@@ -58,13 +58,16 @@ if($section==='homepage'){
     # on compte les commentaires
     $nbCommentaires = countCommentaires($connectDB);
 
+    // page actuelle
     $page = $_GET[COMMENT_NAME_GET] ?? 1;
 
     # On crée la pagination
     $pagination = pagination($nbCommentaires,'?section=commentaires',COMMENT_NAME_GET,$page ,COMMENT_NB_BY_PAGE);
-    
+
+    # création et calcul du offset
+    $offset = ($page-1)*COMMENT_NB_BY_PAGE;
     # chargement des commentaires de la page actuelle
-    $commentaires = readCommentaires($connectDB);
+    $commentaires = readPageCommentaires($connectDB, $offset, COMMENT_NB_BY_PAGE);
     
 
     # Vue commentaires
