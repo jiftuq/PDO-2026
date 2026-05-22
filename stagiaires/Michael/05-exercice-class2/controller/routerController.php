@@ -39,18 +39,34 @@ if($section==='homepage'){
 
 # Page de commentaires
 }elseif($section==='commentaires'){
+    /**
+     * Partie sans bonus
+     */
     # chargement des commentaires
     $commentaires = readCommentaires($connectDB);
     # on compte les commentaires
     $nbCommentaires = count($commentaires);
-    # Partie commentaires
+    /**
+     * Partie avec bonus
+     */
+
+    # Vue commentaires
     include ROOT_PROJECT."/view/commentaires.html.php";
 
 # Page de formulaire
 }elseif($section==='ajouter'){
-     include ROOT_PROJECT."/view/ajouter.html.php";
 
-# Sinon erreur 404 
+    # formulaire envoyé au backend
+    if(isset($_POST['email'],$_POST['full_name'],$_POST['full_name'],$_POST['text_comment'])){
+        
+    }
+
+    /* avec les protections frontend */
+     # include ROOT_PROJECT."/view/ajouter.html.php";
+    /* sans les protections frontend */ 
+    include ROOT_PROJECT."/view/ajouter-backend.html.php"; 
+
+# Sinon Page erreur 404 
 }else{
     include ROOT_PROJECT."/view/page404.html.php";
 }
