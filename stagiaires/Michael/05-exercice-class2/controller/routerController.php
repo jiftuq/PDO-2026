@@ -31,21 +31,52 @@ try{
 // si $_GET['section'] n'existe pas on donne la valeur homepage 
 $section = $_GET['section'] ?? 'homepage';
 
+# Page d'accueil
 if($section==='homepage'){
 
     # si nous sommes sur l'accueil
     include ROOT_PROJECT."/view/homepage.html.php";
 
+# Page de commentaires
 }elseif($section==='commentaires'){
+    /**
+     * Partie sans bonus
+     */
     # chargement des commentaires
     $commentaires = readCommentaires($connectDB);
     # on compte les commentaires
     $nbCommentaires = count($commentaires);
-    # Partie commentaires
+    /**
+     * Partie avec bonus
+     */
+
+    # Vue commentaires
     include ROOT_PROJECT."/view/commentaires.html.php";
-    # sur le formulaire
+
+# Page de formulaire
+}elseif($section==='ajouter'){
+
+    # formulaire envoyé au backend
+    if(isset($_POST['email'],$_POST['title'],$_POST['full_name'],$_POST['text_comment'])){
+        // tentative d'insertion (protections dans la fonction)
+        $insert = addOneCommentaire(
+            db:$connectDB,
+            email:$_POST['email'],
+            full_name:$_POST['full_name'],
+            text_comment:$_POST['text_comment'],
+            title:$_POST['title']
+        );
+        var_dump($insert);
+    }
+
+    /* avec les protections frontend */
+     # include ROOT_PROJECT."/view/ajouter.html.php";
+    /* sans les protections frontend */ 
+    include ROOT_PROJECT."/view/ajouter-backend.html.php"; 
+
+# Sinon Page erreur 404 
 }else{
-     include ROOT_PROJECT."/view/ajouter.html.php";
+    include ROOT_PROJECT."/view/page404.html.php";
 }
 
 // bonne pratique, fermeture de connexion
