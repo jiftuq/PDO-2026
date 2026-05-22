@@ -1,4 +1,3 @@
-<?php $pageTitle = 'Accueil'; ?>
 <?php require __DIR__ . '/_header.html.php'; ?>
 
 <h1>Bienvenue sur mon site</h1>

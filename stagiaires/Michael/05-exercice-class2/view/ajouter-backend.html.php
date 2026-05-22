@@ -1,4 +1,3 @@
-<?php $pageTitle = 'Ajouter un commentaire'; ?>
 <?php require __DIR__ . '/_header.html.php'; ?>
 
 <h1>Ajouter un commentaire</h1>

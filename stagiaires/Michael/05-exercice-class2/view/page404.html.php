@@ -1,4 +1,3 @@
-<?php $pageTitle = 'Erreur 404'; ?>
 <?php require __DIR__ . '/_header.html.php'; ?>
 
 <h1>Erreur 404</h1>

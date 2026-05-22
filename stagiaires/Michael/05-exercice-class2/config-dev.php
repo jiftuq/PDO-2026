@@ -21,5 +21,5 @@ const ROOT_PROJECT = __DIR__;
  */
 
 // nombre de commentaires par page
-const COMMENT_NB_BY_PAGE = 5;
+const COMMENT_NB_BY_PAGE = 2;
 const COMMENT_NAME_GET = 'page';

@@ -8,7 +8,9 @@
     <h2>Il y a 1 commentaire</h2>
 <?php else: ?>
     <h2>Il y a <?= $nbCommentaires ?> commentaires</h2>
-<?php endif; ?>
+<?php endif; 
+echo $pagination;
+?>
 
 <?php foreach ($commentaires as $c): ?>
     <div class="comment-card">
@@ -18,7 +20,9 @@
         </p>
         <p><?= nl2br(htmlspecialchars($c['text_comment'])) ?></p>
     </div>
-<?php endforeach; ?>
+<?php endforeach; 
+echo $pagination;
+?>
 
 <div class="page-actions">
     <a href="#" class="btn">Haut de page ↑</a>

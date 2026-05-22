@@ -42,16 +42,37 @@ if($section==='homepage'){
     /**
      * Partie sans bonus
      */
+
+    /*
     # chargement des commentaires
     $commentaires = readCommentaires($connectDB);
     # on compte les commentaires
     $nbCommentaires = count($commentaires);
+    # Vue commentaires
+    include ROOT_PROJECT."/view/commentaires.html.php";
+    */
+
     /**
      * Partie avec bonus
      */
+    # on compte les commentaires
+    $nbCommentaires = countCommentaires($connectDB);
+
+    // page actuelle
+    $page = $_GET[COMMENT_NAME_GET] ?? 1;
+
+    # On crée la pagination
+    $pagination = pagination($nbCommentaires,'?section=commentaires',COMMENT_NAME_GET,$page ,COMMENT_NB_BY_PAGE);
+
+    # création et calcul du offset
+    $offset = ($page-1)*COMMENT_NB_BY_PAGE;
+    # chargement des commentaires de la page actuelle
+    $commentaires = readPageCommentaires($connectDB, $offset, COMMENT_NB_BY_PAGE);
+    
 
     # Vue commentaires
-    include ROOT_PROJECT."/view/commentaires.html.php";
+    include ROOT_PROJECT."/view/commentaires-bonus.html.php";
+    
 
 # Page de formulaire
 }elseif($section==='ajouter'){
@@ -71,9 +92,9 @@ if($section==='homepage'){
     }
 
     /* avec les protections frontend */
-     # include ROOT_PROJECT."/view/ajouter.html.php";
+    include ROOT_PROJECT."/view/ajouter.html.php";
     /* sans les protections frontend */ 
-    include ROOT_PROJECT."/view/ajouter-backend.html.php"; 
+    #include ROOT_PROJECT."/view/ajouter-backend.html.php"; 
 
 # Sinon Page erreur 404 
 }else{
