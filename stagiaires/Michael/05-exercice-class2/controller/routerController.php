@@ -66,7 +66,8 @@ if($section==='homepage'){
             text_comment:$_POST['text_comment'],
             title:$_POST['title']
         );
-        var_dump($insert);
+        // redirection vers commentaire
+        header("Location: ./?section=commentaires");
     }
 
     /* avec les protections frontend */

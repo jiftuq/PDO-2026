@@ -23,7 +23,7 @@
 
 <div class="page-actions">
     <a href="#top" class="btn">Haut de page ↑</a>
-    <a href="index.php?page=ajouter" class="btn">Ajouter un commentaire</a>
+    <a href="./?section=ajouter" class="btn">Ajouter un commentaire</a>
 </div>
 
 <?php require __DIR__ . '/_footer.html.php'; ?>
