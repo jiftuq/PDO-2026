@@ -16,5 +16,10 @@ const MARIA_DSN = DB_CONNECT_TYPE.":host=".DB_CONNECT_HOST. ";dbname=".DB_CONNEC
 // chemin vers la racine du projet
 const ROOT_PROJECT = __DIR__;
 
+/**
+ * Pagination
+ */
+
 // nombre de commentaires par page
 const COMMENT_NB_BY_PAGE = 5;
+const COMMENT_NAME_GET = 'page';
