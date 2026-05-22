@@ -31,11 +31,13 @@ try{
 // si $_GET['section'] n'existe pas on donne la valeur homepage 
 $section = $_GET['section'] ?? 'homepage';
 
+# Page d'accueil
 if($section==='homepage'){
 
     # si nous sommes sur l'accueil
     include ROOT_PROJECT."/view/homepage.html.php";
 
+# Page de commentaires
 }elseif($section==='commentaires'){
     # chargement des commentaires
     $commentaires = readCommentaires($connectDB);
@@ -43,9 +45,14 @@ if($section==='homepage'){
     $nbCommentaires = count($commentaires);
     # Partie commentaires
     include ROOT_PROJECT."/view/commentaires.html.php";
-    # sur le formulaire
-}else{
+
+# Page de formulaire
+}elseif($section==='ajouter'){
      include ROOT_PROJECT."/view/ajouter.html.php";
+
+# Sinon erreur 404 
+}else{
+    include ROOT_PROJECT."/view/page404.html.php";
 }
 
 // bonne pratique, fermeture de connexion
