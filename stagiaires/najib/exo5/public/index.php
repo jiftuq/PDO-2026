@@ -10,6 +10,9 @@ try {
        dsn: MARIA_DSN,
        username: DB_CONNECT_USER,
        password: DB_CONNECT_PWD,
+       options:[
+        
+       ]
     );
 
 } catch (Exception $e) {

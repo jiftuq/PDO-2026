@@ -105,7 +105,7 @@ form{
 }
  
 input, textarea{
-    width: 100%;
+    width: 90%;
     border: 1px solid #ddd;
     border-radius: 6px;
     padding: 8px 10px;
@@ -129,7 +129,7 @@ input[type="submit"]{
     color: white;
     border: none;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bold;      
     margin-top: 5px;
     transition: 0.3s;
     &:hover{

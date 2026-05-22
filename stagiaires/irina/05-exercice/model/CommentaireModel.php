@@ -12,6 +12,13 @@ function insertCommentaire(PDO $pdo, string $email, string $fullName, string $ti
     ]);
 }
 
+function insertCommentaire2(PDO $pdo, string $email, string $fullName, string $title, string $textComment): void
+{
+    $sql = "INSERT INTO commentaire (email, full_name, title, text_comment) VALUES ('$email', '$fullName', '$title', '$textComment')";
+    $statement = $pdo->query($sql);
+
+}
+
 function readCommentairesFromDb(PDO $pdo, ?int $limit = null, ?int $offset = null): array
 {
     $sql = 'SELECT * FROM commentaire ORDER BY post_date DESC';

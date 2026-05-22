@@ -16,7 +16,7 @@
         </header>
 
         <main>
-            <?php
+            <?php  
             // on a tenté d'énvoyer le formulaire et
             // il a passé les protection frontend
             if (isset($insertMessage)):

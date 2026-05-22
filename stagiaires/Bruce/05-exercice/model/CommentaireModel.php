@@ -21,6 +21,20 @@ function addCommentaire(PDO $con, string $email, string $full_name, string $titl
 
     // On exécute la requête
     $prepare->execute();
+
+}
+
+function addCommentaire2(PDO $con, string $email, string $full_name, string $title, string $text_comment): void
+{
+    // On prépare la requête SQL d'insertion
+    $sql = "INSERT INTO `commentaire` (`email`, `full_name`, `title`, `text_comment`)
+            VALUES (?, ?, ?, ?)";
+
+    $prepare = $con->prepare($sql);
+
+    // On exécute la requête
+    $prepare->execute([$email,$full_name,$title,$text_comment]);
+    
 }
 
 

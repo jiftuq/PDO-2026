@@ -56,7 +56,8 @@ function readCommentaires(PDO $con){
     // bonne pratique
     $request->closeCursor();
 
-    return $articles ?: [];}
+    return $articles;
+    }
 
 // bonus pagination
 
